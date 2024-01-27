@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/breakfast.css">
+    <link rel="shortcut icon" href="/images/mini_loor.webp" type="image/avif">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <meta name="description" content="Welcome to Eat With Loor! ON this website you are going to have some healthy and easy recipes to do!">
+    <meta name="keywords" content="healthy, EatWithLoor, eatwithloor, loor eat website">
+    <script src="scripts/scripts.js"></script>
+    <title>Breakfast - Eat With Loor</title>
+    <script src="/scripts/ur.js"></script>
+    <script>
+  $('.all').click(function(e){
+    e.preventDefault();
+    var target = $($(this).attr('href'));
+    if(target.length){
+      var scrollTo = target.offset().top;
+      $('body, html').animate({scrollTop: scrollTo+'vw'}, 800);
+    }
+  });
+    </script>
+</head>
+<body>
+    <header>
+      <nav class="nav">
+          <input type="checkbox" id="nav-check">
+          <div class="nav-header">
+            <div class="nav-title">
+              <img src="images/LOOR.webp" alt="">
+            </div>
+          </div>
+          <div class="linkss">
+            <a href="breakfast.html" class="oatmeals" id="breakfast">Breakfast</a>
+            <a href="lunch.html" class="oatmeals">Lunch</a>
+            <a href="dinner.html" class="oatmeals">Dinner</a>
+            <a href="dessert.html" class="oatmeals">Dessert</a>
+          </div>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+          <ul class="nav-list">
+            <li><a href="index.html" class="home">Home</a></li>
+            <li><a href="breakfast.html" class="oatmeals">Breakfast</a></li>
+            <li><a href="lunch.html" class="pancakes">Lunch</a></li>
+            <li><a href="dinner.html" class="savory">Dinner</a></li>
+            <li><a href="dessert.html" class="smoothies">Dessert</a></li>
+            <li><a href="https://www.instagram.com/eatwithloor/?hl=fr" target="_blank" class="insta"><p>Instagram</p><img src="images/insta-logo.webp" alt=""></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61554782439440" target="_blank" class="Facebook"><img src="images/fb-logo.webp" alt=""></a></li>
+            <li><a href="https://www.tiktok.com/@eatwithloor" target="_blank" class="Tiktok"><img src="images/tiktok-logo.webp" alt=""></a></li>
+          </ul>
+        </nav>
+    </header>
+    <div class="intro"><img src="images/red-pancakes.webp" alt=""><h1>breakfast</h1>
+      <p class="p1">You were going to skip it, weren't you? That quick, hectic morning routine, the temptation to hit the snooze button one more time, or the belief that skipping breakfast would save you 
+        a few precious minutes. We've all been there, but let me tell you, breakfast is a culinary journey you don't want to miss.</p>
+        <p>Discover delicious recipes designed to be ready in a matter of seconds, ensuring that you can savor the magic of breakfast even on the busiest of mornings.</p>
+      </div>
+      <div class="recipees" id="recipees">
+        <h2>All Breakfast</h2>
+      <div class="links">
+        <a href="#recipees" id="boutons" class="all">All</a>
+        <a href="#oatmeal" class="oatmeal">Oatmeals</a>
+        <a href="#pan" class="pancake">Pancakes & Waffles</a>
+        <a href="#smooth" class="savori">Smoothies & Bowls</a>
+        <a href="#savory" class="smoothie">Savory breakfast</a>
+      </div>
+      <div class="meals"><p id="oatmeal">- Oatmeals -</p>
+      <a href="breakfast/bk1.html" class="bk1">
+        <img src="images/Oatmeals-1.webp" alt="">
+        <h3>Protein Powder Oatmeal</h3>
+      </a>
+      <a href="breakfast/bk2.html" class="bk2">
+        <img src="images/Oatmeal-2.webp" alt="">
+        <h3>Greek Yogurt Oatmeal</h3>
+      </a>
+      <a href="breakfast/bk3.html" class="bk3">
+        <img src="images/Oatmeal-3.webp" alt="">
+        <h3>Chocolate Banana Baked Oats</h3>
+      </a>
+      <div class="pan">
+      <p id="pan">- Pancakes & Waffles -</p>
+      <a href="breakfast/bk4.html" class="bk4">
+        <img src="images/Pancake-1.webp" alt="">
+        <h3>Grandma's fluffy pancakes</h3>
+      </a>
+      <a href="breakfast/bk5.html" class="bk5">
+        <img src="images/Pancakes-2.webp" alt="">
+        <h3>Easy protein banana pancakes</h3>
+      </a>
+      <a href="breakfast/bk6.html" class="bk6">
+        <img src="images/Pancakes-3.webp" alt="">
+        <h3>Strawberry pancakes  </h3>
+      </a>
+      <div class="smoothies">
+        <div class="smooth"><p id="smooth">- Smoothies & Bowls -</p></div>
+        <a href="breakfast/bk7.html" class="bk7">
+          <img src="images/Smoothie-1.webp" alt="">
+          <h3>Red berry smoothie bowl </h3>
+        </a>
+        <a href="breakfast/smth1.html" class="smth1">
+          <img src="images/Smoothie-2.webp" alt="">
+          <h3>Easy Strawberry-Banana Smoothie</h3>
+        </a>
+        <a href="breakfast/smth2.html" class="smth2">
+          <img src="images/Smoothie-3.webp" alt="">
+          <h3>Berry Burst Protein Power Smoothie</h3>
+        </a>
+      </div>
+      <div class="savory">
+        <p id="savory">- Savory Breakfast -</p>
+        <a href="breakfast/bk8.html" class="bk8">
+          <img src="images/Savory-1.webp" alt="">
+          <h3>Bacon and cheese egg cups</h3>
+        </a>
+        <a href="breakfast/bk9.html" class="bk9">
+          <img src="images/Savory-2.webp" alt="">
+          <h3>Pomegranate avocado toast with goat Cheese</h3>
+        </a>
+        <a href="breakfast/bk10.html" class="bk10">
+          <img src="images/Savory-3.webp" alt="">
+          <h3>Loaded egg muffins</h3>
+        </a>
+      </div>
+      </div>
+    </div>
+    </div>
+    <footer>
+      <img src="images/LOOR.webp" alt="">
+      <a href="https://www.instagram.com/eatwithloor/" target="_blank" class="instagram"><p>Instagram</p><img src="images/insta-logo.webp" alt=""></a>
+      <a href="https://www.facebook.com/profile.php?id=61554782439440" target="_blank" class="Facebook"><p>Facebook</p><img src="images/fb-logo.webp" alt=""></a>
+      <a href="https://www.tiktok.com/@eatwithloor" target="_blank" class="Tiktok"><p>Tik Tok</p><img src="images/tiktok-logo.webp" alt=""></a>
+      <div class="Newsletter">Ready to cook? </div>
+      <div class="Month">Sign up for our monthly newsletter!</div>
+       <form action="subscribe.php" method="post">
+          <div class="email"><input type="email" placeholder="Email Address" name="mail" required></div>
+          <div class="sub"> <input type="submit" value="Subscribe"></div>
+        </form>
+        <div class="about" onclick="window.location.href='about.html';"> About us </div>
+        <div class="contact"> Contact </div>
+        <div class="copyright">&copy; EatWithLoor 2023</div>
+        <div class="author"><p>created by Ryansdee</p></div>
+        <div class="instalogo"><img src="images/insta-logo.webp" alt=""></div>
+        <div class="fblogo"><img src="images/fb-logo.webp" alt=""></div>
+        <div class="tiktoklogo"><img src="images/tiktok-logo.webp" alt=""></div>
+  </footer>
+  </body>
+  </html>

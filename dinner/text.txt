@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/6.css">
+    <link rel="shortcut icon" href="/images/Logo-mini.png" type="image/avif">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <meta name="description" content="Welcome to Eat With Loor! ON this website you are going to have some healthy and easy recipes to do!">
+    <meta name="keywords" content="healthy, EatWithLoor, eatwithloor, loor eat website">
+    <script src="scripts/scripts.js"></script>
+    <script src="/scripts/ur.js"></script>
+    <title>Cheesy Bacon & Egg Whites Wraps - EWL</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <div class="nav-title">
+                <img src="/images/LOOR.webp" alt="">
+              </div>
+            </div>
+            <div class="recipees" id="recipees">
+              <div class="links">
+                <a href="/breakfast.html" class="oatmeals" id="breakfast">Breakfast</a>
+                <a href="/lunch.html" class="oatmeals">Lunch</a>
+                <a href="/dinner.html" class="oatmeals">Dinner</a>
+                <a href="/dessert.html" class="oatmeals">Dessert</a>
+              </div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            <ul class="nav-list">
+              <li><a href="/index.html" class="home">Home</a></li>
+              <li><a href="https://www.instagram.com/eatwithloor/?hl=fr" class="insta">Instagram</a></li>
+            </ul>
+          </nav>
+    </header>
+    <div class="card">
+        <img src="/images/Wrap-1.webp" alt="Bacon & Goat Cheese Salad">
+        <h1 id="title">Cheesy Bacon & Egg Whites Wraps</h1>
+        <h6 id="support"><strong>This post may include affiliate links. Thank you for your support.</strong></h6>
+        <p id="explication"><strong>Delight in the flavors of a hearty morning with these Cheesy Bacon & Egg Breakfast Wraps. Packed with savory bacon, scrambled egg whites, 
+            vibrant bell peppers, and melty cheese, these wraps offer a satisfying start to your day in every bite.</strong></p>
+        <p id="prep">🕑Prep Time: 15 minutes</p>
+        <p id="time">&#9200;Cook Time: 20 minutes</p>
+        <p id="serving">&#128104;&#8205;&#128105;&#8205;&#128103;&#8205;&#128102;Serving(s): <strong>4 wraps</strong></p>
+        <div class="line1"></div>
+        <p id="ingredient"><strong>Ingredients</strong></p>
+        <div class="ingredients">
+          <strong>
+        <P>&#128313; 4 wraps of choice (I used wraps made out of carrot)</P>
+        <p>&#128313; 250 milliliters of egg whites</p>
+        <P>&#128313; 30 milliliters of milk of choice</P>
+        <P>&#128313; Salt & pepper to taste</P>
+        <P>&#128313; 150 grams of bacon, sliced</P>
+        <P>&#128313; 1 red bell pepper</P>
+        <P>&#128313; 120 grams of shredded cheese of choice </P>
+        <P>&#128313; A handful of lettuce</P>
+      </strong>
+      </div>
+      <div class="line2"></div>
+      <p id="instruction"><strong>Instructions</strong></p>
+      <div class="instructions">
+        <strong>
+        <p>&#128313; If needed, warm the wraps according to package instructions. Slice &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the red bell pepper into strips.</p>
+        <p>&#128313; In a bowl, whisk together the egg whites, milk, salt, and pepper &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;until well combined.</p>
+        <p>&#128313; In a pan over medium heat, cook the bacon until crispy. Remove the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bacon from the pan and set aside. In the same pan, sauté the red &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bell pepper until slightly 
+          softened. Set aside.</p>
+        <p>&#128313; Pour the prepared egg mixture into the same pan. Cook and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scramble the eggs until they reach the desired consistency.</p>
+        <p>&#128313; Lay out the wraps. Distribute the scrambled eggs evenly among the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wraps. Top each with cooked bacon slices, sautéed bell pepper &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;strips, lettuce and a portion of 
+          shredded cheese.</p>
+        <p>&#128313; To fold the wrap, simply start by folding over two opposite sides to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;meet somewhere in the middle. Then, you’ll take the flap closest to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;you and fold that over top. 
+          Very carefully, roll the wrap up until the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;seam side is down. Note that the filling may fall out of the wrap a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bit, but as you’re rolling, you can push it back in and keep going. 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cut the wrap into two halves.</p>
+      </strong>
+      </div>
+      <div class="line3"></div>
+      <button onclick="dev()" id="nutrition"><strong>Nutrition</strong></button>
+      <div class="nutrition" id="texte" style="display: none;">
+        <strong>
+        <p>&#128313;Serving: 1 medium sized pancake | &#128313;Calories: X kcal  | &#128313;Carbohydrates: X g | &#128313;Protein: X g | &#128313;Fat: X g </p>
+        <h6>Nutrition information is automatically calculated (without toppings), so should only be used as an approximation.</h6>
+      </strong>
+      </div>
+    </div>
+    <footer>
+        <img src="/images/LOOR.png" alt="">
+        <a href="https://www.instagram.com/eatwithloor/" class="instagram">Instagram<img src="imags/insta.png" alt=""></a>
+          <div class="copyright">&copy; EatWithLoor 2023</div>
+          <div class="author"><p>created by Ryansdee</p></div>
+    </footer>
+  </body>
+  <script>
+    function dev() {
+  var x = document.getElementById("texte");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+      </script>
+  </html> 

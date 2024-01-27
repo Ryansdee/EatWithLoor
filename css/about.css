@@ -1,0 +1,683 @@
+@font-face {
+  font-family: ewl;
+  src: url(/font/ewl.otf);
+}
+@font-face {
+  font-family: food;
+  src: url(/font/Super\ Foods.ttf);
+}
+@font-face {
+font-family: vogue;
+src: url(/font/vogue.ttf);
+}
+@font-face {
+font-family: qura;
+src: url(/font/qura.otf);
+}
+@font-face {
+font-family: butler;
+src: url(/font/buttler.otf);
+}
+@font-face {
+font-family: time;
+src: url(/font/Timeless.ttf);
+}
+@font-face {
+  font-family: chloe;
+  src: url(/font/chloe.otf);
+  }
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth
+}
+body{
+  background-image: linear-gradient(rgba(245, 246, 252, 0.890), rgba(245, 246, 252, 0.890)), url('/images/background-2.webp');
+  background-size: cover;
+}
+.linkss{
+width: 100vw;
+height: 10vw;
+display: inline-block;
+position: absolute;
+text-align: center;
+top: 2vw;
+left: 0vw;
+}
+.linkss a{
+display: inline-block;
+text-align: center;
+font-size: 1.2vw;
+text-decoration: none;
+font-family: 'time', serif;
+font-weight: bold;
+border: 1px solid transparent;
+width: 7vw;
+transition: 0.5s ease;
+background: transparent;
+color: #050a30;
+border-radius: 1vw;
+}
+.linkss a:hover{
+background: transparent;
+color: black;
+border: 0.1vw solid #5f5f5f;
+box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
+-webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
+-moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
+font-size: 1.22vw;
+}
+.nav {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #e4e4e4;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  height: 5vw;
+  box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+  -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+  -moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+  z-index: 11;
+}
+.nav-title img{
+  display: block;
+  position: absolute;
+  width: 18vw;
+  color: white;
+  top: 0.45vw;
+  left: -1vw;
+}
+ .nav > .nav-header {
+  flex: 0.95;
+  padding-left: 1rem;
+}
+.nav > .nav-header > .nav-title {
+  font-size: 22px;
+  color: #fff;
+}
+.nav > .nav-list {
+  display: flex;
+  gap: 2rem;
+  z-index: 10;
+}
+.nav > .nav-list > li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav > .nav-list > li a {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'butler', serif;
+  cursor: pointer;
+}
+.nav > #nav-check {
+    display: none;
+}
+.nav-list{
+  margin-left: 78.2vw;
+}
+.home{
+  display: block;
+  border-radius: 2vw;
+  background: transparent;
+  border: 0.1vw solid transparent;
+  height: 1.8vw;
+  color: #050a30;
+  text-align: center;
+  width: 5vw;
+  margin-left: -6vw;
+  transition: 0.6s ease;
+}
+.home:hover{
+  background: transparent;
+  color: black;
+  border: 0.1vw solid #5f5f5f;
+}
+.insta{
+  display: block;
+  border-radius: 2vw;
+  background: transparent;
+  border: 0.1vw solid transparent;
+  height: 1.8vw;
+  color: #050a30;
+  text-align: center;
+  width: 7vw;
+  margin-left: -7.54vw;
+  transition: 0.6s ease;
+}
+.insta p{
+margin-top: 0vw;
+}
+.insta img{
+display: none;
+}
+.Facebook img{
+display: none;
+}
+.Tiktok img{
+display: none;
+}
+.insta:hover{
+background: transparent;
+color: black;
+border: 0.1vw solid #5f5f5f;
+}
+.nav-list .oatmeals{
+display: none;
+}
+.nav-list .pancakes{
+display: none;
+}
+.nav-list .savory{
+display: none;
+}
+.nav-list .smoothies{
+display: none;
+}
+#bouton{
+  display: block;
+  border-radius: 2vw;
+  background: #8B73FF;
+  border: 0.1vw solid transparent;
+  height: 1.8vw;
+  font-family: 'ewl', sans-serif;
+  font-size: 1.2vw;
+  color: #ffffff;
+  text-align: center;
+  width: 8vw;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+#bouton:hover{
+  background: white;
+  color: #8B73FF;
+  border: 0.1vw solid #8B73FF;
+}
+.nice{
+  display: block;
+  position: absolute;
+  font-family: 'chloe';
+  font-weight:bold;
+  margin-top: 7vw;
+  margin-left: 28vw;
+  font-size: 2vw;
+  color: #080f42;
+}
+.loor{
+  display: block;
+  position: absolute;
+  font-family: 'ewl';
+  margin-top: 12vw;
+  margin-left: 20vw;
+  font-size: 1vw;
+  width: 33vw;
+  padding: 1.3vw;
+  text-align: center;
+  background: #e4e4e4;
+  line-height: 1.5;
+  border-radius: 0.1vw;
+  z-index: 1;
+}
+.loorimage{
+  display: block;
+  position: absolute;
+  margin-top: 8vw;
+  margin-left: 50vw;
+}
+.loorimage img{
+  width: 25vw;
+}
+.line1{
+  margin-top: 31vw;
+  margin-left: 20vw;
+  display: block;
+  position: absolute;
+  width: 55vw;
+  height: 0.1vw;
+  background: #050a30;
+}
+.simple{
+  margin-top: 29.6vw;
+  margin-left: 36vw;
+  display: block;
+  position: absolute;
+  width: 21vw;
+  padding: 0.2vw;
+  height: 2vw;
+  background: #f6f7fc;
+  font-family: 'chloe';
+  font-size: 2vw;
+  color: #050a30;
+  text-align: center;
+}
+.deli{
+  display: block;
+  position: absolute;
+  font-family: 'ewl';
+  margin-top: 34vw;
+  line-height: 1.5;
+  margin-left: 20vw;
+  font-size: 1vw;
+  width: 52.5vw;
+  padding: 1.3vw;
+  text-align: center;
+  background: #e4e4e4;
+  border-radius: 0.1vw;
+  z-index: 1;
+}
+.line2{
+  margin-top: 50vw;
+  margin-left: 20vw;
+  display: block;
+  position: absolute;
+  width: 55vw;
+  height: 0.1vw;
+  background: #050a30;
+}
+.line2.animate {
+  animation: fadeIn 1s ease; /* Example animation, replace with your animation */
+}
+.goal{
+  margin-top: 48.8vw;
+  margin-left: 24vw;
+  display: block;
+  position: absolute;
+  width: 11vw;
+  padding: 0.2vw;
+  height: 2vw;
+  background: #f6f7fc;
+  font-family: 'chloe';
+  font-size: 2vw;
+  color: #050a30;
+  text-align: center;
+}.goal.animate {
+  animation: fadeIn 1s ease; /* Example animation, replace with your animation */
+}
+.our{
+  display: block;
+  position: absolute;
+  font-family: 'ewl';
+  margin-top: 53vw;
+  line-height: 1.5;
+  margin-left: 20vw;
+  font-size: 1vw;
+  width: 52.5vw;
+  padding: 1.3vw;
+  text-align: center;
+  background: #e4e4e4;
+  border-radius: 0.1vw;
+  z-index: 1;
+}
+.our.animate {
+  animation: fadeIn 1s ease; /* Example animation, replace with your animation */
+}
+.loore{
+  display: block;
+  position: absolute;
+  margin-top: 71vw;
+  margin-left: 20vw;
+  z-index: 2;
+}
+.loore.animate {
+  animation: fadeIn 1s ease; /* Example animation, replace with your animation */
+}
+.loore img{
+  width: 13vw;
+  border-radius: 20vw;
+}
+.line3{
+  margin-top: 69vw;
+  margin-left: 34vw;
+  display: block;
+  position: absolute;
+  width: 40.9vw;
+  height: 0.1vw;
+  background: #050a30;
+}
+.line3.animate {
+  animation: fadeIn 1s ease; /* Example animation, replace with your animation */
+}
+.meet{
+  margin-top: 67.7vw;
+  margin-left: 60vw;
+  display: block;
+  position: absolute;
+  width: 10vw;
+  padding: 0.2vw;
+  height: 2vw;
+  background: #f6f7fc;
+  font-family: 'chloe';
+  font-size: 2vw;
+  color: #050a30;
+  text-align: center;
+}
+.meet.animate {
+  animation: fadeIn 1s ease; /* Example animation, replace with your animation */
+}
+.tl{
+  display: block;
+  position: absolute;
+  font-family: 'ewl';
+  margin-top: 72vw;
+  line-height: 1.5;
+  margin-left: 30vw;
+  font-size: 1vw;
+  width: 37.6vw;
+  padding: 1.3vw;
+  padding-left: 6vw;
+  text-align: center;
+  background: #e4e4e4;
+  border-radius: 0.1vw;
+  z-index: 1;
+}
+.tl.animate {
+  animation: fadeIn 1s ease; /* Example animation, replace with your animation */
+}
+.line4{
+  margin-top: 88vw;
+  margin-left: 20vw;
+  display: block;
+  position: absolute;
+  width: 40.9vw;
+  height: 0.1vw;
+  background: #050a30;
+}
+.line4.animate {
+  animation: fadeIn 1s ease; /* Example animation, replace with your animation */
+}
+.meetr{
+  margin-top: 86.8vw;
+  margin-left: 24vw;
+  display: block;
+  position: absolute;
+  width: 10vw;
+  padding: 0.2vw;
+  height: 2vw;
+  background: #f6f7fc;
+  font-family: 'chloe';
+  font-size: 2vw;
+  color: #050a30;
+  text-align: center;
+}
+.meeetr.animate {
+  animation: fadeIn 1s ease; /* Example animation, replace with your animation */
+}
+.tr{
+  display: block;
+  position: absolute;
+  font-family: 'ewl';
+  margin-top: 90vw;
+  line-height: 1.5;
+  margin-left: 20vw;
+  font-size: 1vw;
+  width: 37.6vw;
+  padding: 1.3vw;
+  padding-right: 6vw;
+  text-align: center;
+  background: #e4e4e4;
+  border-radius: 0.1vw;
+  z-index: 1;
+}
+.tr.animate {
+  animation: fadeIn 1s ease; /* Example animation, replace with your animation */
+}
+.ryan{
+  display: block;
+  position: absolute;
+  margin-top: 88.8vw;
+  margin-left: 62vw;
+  z-index: 2;
+}
+.ryan.animate {
+  animation: fadeIn 1s ease; /* Example animation, replace with your animation */
+}
+.ryan img{
+  width: 13vw;
+  border-radius: 20vw;
+}
+.line2,
+.goal,
+.our,
+.line3,
+.loore,
+.meet,
+.tl,
+.line4,
+.ryan,
+.meetr,
+.tr {
+  opacity: 0; /* or any other initial styles */
+  transition: opacity 1s; /* for smooth transition */
+}
+
+/* Additional styles for the 'animate' class */
+.animate {
+  opacity: 1; /* or any other styles */
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+footer{
+background: #e4e4e4;
+display: block;
+position: absolute;
+margin-top: 110vw;
+left: 0;
+top: 0;
+width: 100vw;
+height: 10vw;
+border: none;
+}
+footer img{
+display: block;
+position: absolute;
+left: 10vw;
+top: 2vw;
+width: 17vw;
+}
+footer a{
+text-decoration: none;
+color: black;
+font-family: 'ewl', sans-serif;
+font-size: 1.2vw;
+}
+footer .email input{
+width: 8vw;
+height: 1.5vw;
+}
+footer .sub input{
+border: 1px solid black;
+background: #050a30;
+color: white;
+width: 5vw;
+height: 1.8vw;
+border-radius: 0.2vw;
+margin-left: -1vw;
+cursor: pointer;
+}
+.instagram{
+display: block;
+position: absolute;
+width: 7vw;
+top: 0.8vw;
+left: 52vw;
+transition: 0.45s ease;
+color: #050a30;
+}
+.instagram img{
+display: none;
+position: absolute;
+width: 3vw;
+top: -1.6vw;
+left: -4vw;
+filter: invert(1);
+transition: 0.4s ease
+}
+.instagram:hover{
+color: black;
+}
+.Facebook{
+display: block;
+position: absolute;
+width: 7vw;
+top: 2.8vw;
+left: 52vw;
+transition: 0.45s ease;
+color: #050a30;
+}
+.Facebook img{
+display: none;
+position: absolute;
+width: 3vw;
+top: -1.6vw;
+left: -4vw;
+filter: invert(1);
+transition: 0.4s ease
+}
+.Facebook:hover{
+color: black;
+}
+
+.Tiktok{
+display: block;
+position: absolute;
+width: 7vw;
+top: 4.8vw;
+left: 52vw;
+transition: 0.45s ease;
+color: #050a30;
+}
+.Tiktok img{
+display: none;
+position: absolute;
+width: 3vw;
+top: -1.6vw;
+left: -4vw;
+filter: invert(1);
+transition: 0.4s ease
+}
+.Tiktok:hover{
+color: black;
+}
+
+.Newsletter{
+font-family: 'ewl', sans-serif;
+color: #080f42;
+display: block;
+position: absolute;
+font-size: 1.2vw;
+top: 2vw;
+left: 28vw;
+}
+
+.Month{
+font-family: 'ewl', sans-serif;
+color: #080f42;
+display: block;
+position: absolute;
+font-size: 1vw;
+top: 3.5vw;
+left: 28vw;
+font-style: italic;
+font-weight: normal;
+}
+
+.email{
+font-family: 'ewl', sans-serif;
+color: #080f42;
+display: block;
+position: absolute;
+font-size: 0.8vw;
+top: 5.5vw;
+left: 28vw;
+}
+.sub{
+font-family: 'ewl', sans-serif;
+color: #080f42;
+display: block;
+position: absolute;
+font-size: 0.8vw;
+top: 5.5vw;
+left: 37.5vw;
+}
+.about{
+font-family: 'ewl', sans-serif;
+color: #080f42;
+display: block;
+position: absolute;
+font-size: 1vw;
+top: 2vw;
+left: 70vw;
+}
+.contact{
+font-family: 'ewl', sans-serif;
+color: #080f42;
+display: block;
+position: absolute;
+font-size: 1vw;
+top: 3.5vw;
+left: 70vw;
+}
+.copyright{
+font-family: 'ewl', sans-serif;
+color: #080f42;
+display: block;
+position: absolute;
+font-size: 0.8vw;
+top: 6.2vw;
+left: 15.1vw;
+}
+
+.instalogo img{
+width: 1.2vw;
+display: block;
+position: absolute;
+top: 2.2vw;
+left: 50.3vw;
+}
+
+.fblogo img{
+width: 1.2vw;
+display: block;
+position: absolute;
+top: 4.2vw;
+left: 50.3vw;
+}
+.tiktoklogo img{
+width: 1.2vw;
+display: block;
+position: absolute;
+top: 6.2vw;
+left: 50.3vw;
+}
+.author{
+display: block;
+position: absolute;
+font-family: 'ewl', sans-serif;
+color: black;
+height: 1vw;
+width: 6.2vw;
+font-size: 0.69vw;
+top: 0;
+left: 0;
+margin-top: 8vw;
+margin-left: 92vw;
+}
+.author p{
+display: block;
+position: absolute;
+top: -0.65vw;
+}
