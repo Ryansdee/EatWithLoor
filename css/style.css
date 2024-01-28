@@ -1258,29 +1258,31 @@ footer .Facebook img{
   }
   #title{
     font-size: 6vw;
-    margin-top: 14vw;
-    margin-left: 8vw;
+    margin-top: 7vw;
+    margin-left: 24vw;
   }
   #explication{
     display: block;
     position: absolute;
     font-size: 4vw;
-    width: 95%;
-    margin-top: 25vw;
-    margin-left: 0vw;
+    width: 85%;
+    margin-top: 20vw;
+    margin-left: 14vw;
   }
   #prep{
     margin-top: 134vw;
-    margin-left: 22vw;
+    margin-left: 31vw;
     font-size: 4vw;
     width: auto;
-    color: #050a30;
+    color: white;
+    background: #050a30;
   }
   .rotm video{
     margin-top: 44vw;
     width: 70vw;
-    margin-left: -4vw;
-    border-radius: 1vw;
+    margin-left: 6dvw;
+    border: 1px solid #050a30;
+    border-radius: 4vw;
   }
   .breakfast {
       margin-top: 19vw;
