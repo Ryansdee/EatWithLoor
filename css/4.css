@@ -69,7 +69,7 @@ html{
 .nav-list .smoothies{
   display: none;
 }
- .nav > .nav-header {
+.nav > .nav-header {
   flex: 0.95;
   padding-left: 1rem;
 }
@@ -1197,10 +1197,10 @@ footer{
   body {
     position: relative !important;
     margin-left: 0px;
-   margin-right: 0px ;
-   width: 100%;
-        margin: 0;
-      padding: 0;
+    margin-right: 0px ;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 .Facebook{
   display: block;
@@ -1230,14 +1230,14 @@ footer{
   width: 12vw;
 }
   .page{
-    -webkit-background-size: contain;
-    background-size: contain;
-    background-image: linear-gradient(rgba(245, 246, 252, 0.890), rgba(245, 246, 252, 0.890)), url(/images/background-2.webp);
-    background-repeat: repeat;
     width: 105vw;
     height: 1000vw;
     margin: 0;
     padding: 0;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-image: linear-gradient(rgba(245, 246, 252, 0.890), rgba(245, 246, 252, 0.890)), url(/images/background-2.webp);
+    background-repeat: repeat;
   }
   footer{
     width: 106vw;
