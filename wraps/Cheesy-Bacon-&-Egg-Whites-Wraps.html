@@ -13,35 +13,41 @@
     <title>Cheesy Bacon & Egg Whites Wraps - EWL</title>
 </head>
 <body>
-    <header>
-        <nav class="nav">
-            <input type="checkbox" id="nav-check">
-            <div class="nav-header">
-              <div class="nav-title">
-                <img src="/images/LOOR.webp" alt="">
-              </div>
+  <header>
+      <nav class="nav">
+          <input type="checkbox" id="nav-check">
+          <div class="nav-header">
+            <div class="nav-title">
+              <img src="/images/LOOR.webp" alt="">
             </div>
-            <div class="recipees" id="recipees">
-              <div class="links">
-                <a href="/breakfast.html" class="oatmeals" id="breakfast">Breakfast</a>
-                <a href="/lunch.html" class="oatmeals">Lunch</a>
-                <a href="/dinner.html" class="oatmeals">Dinner</a>
-                <a href="/dessert.html" class="oatmeals">Dessert</a>
-              </div>
+          </div>
+          <div class="recipees" id="recipees">
+            <div class="links">
+              <a href="/breakfast.html" class="oatmeals" id="breakfast">Breakfast</a>
+              <a href="/lunch.html" class="oatmeals">Lunch</a>
+              <a href="/dinner.html" class="oatmeals">Dinner</a>
+              <a href="/dessert.html" class="oatmeals">Dessert</a>
             </div>
-            <div class="nav-btn">
-              <label for="nav-check">
-                <span></span>
-                <span></span>
-                <span></span>
-              </label>
-            </div>
-            <ul class="nav-list">
-              <li><a href="/index.html" class="home">Home</a></li>
-              <li><a href="https://www.instagram.com/eatwithloor/?hl=fr" class="insta">Instagram</a></li>
-            </ul>
-          </nav>
-    </header>
+          </div>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+          <ul class="nav-list">
+            <li><a href="/index.html" class="home">Home</a></li>
+            <li><a href="/breakfast.html" class="oatmeals">Breakfast</a></li>
+            <li><a href="/lunch.html" class="pancakes">Lunch</a></li>
+            <li><a href="/dinner.html" class="savory">Dinner</a></li>
+            <li><a href="/dessert.html" class="smoothies">Dessert</a></li>
+            <li><a href="https://www.instagram.com/eatwithloor/?hl=fr" target="_blank" class="insta"><p>Instagram</p><img src="/images/insta-logo.webp" alt=""></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61554782439440" target="_blank" class="Facebook"><img src="/images/fb-logo.webp" alt=""></a></li>
+            <li><a href="https://www.tiktok.com/@eatwithloor" target="_blank" class="Tiktok"><img src="/images/tiktok-logo.webp" alt=""></a></li>
+          </ul>
+        </nav>
+  </header>
     <div class="page">
     <div class="card">
         <img src="/images/Wrap-1.webp" alt="Bacon & Goat Cheese Salad">
@@ -92,12 +98,45 @@
       </div>
     </div>
   </div>
-    <footer>
-        <img src="/images/LOOR.webp" alt="">
-        <a href="https://www.instagram.com/eatwithloor/" class="instagram">Instagram<img src="imags/insta.png" alt=""></a>
-          <div class="copyright">&copy; EatWithLoor 2023</div>
-          <div class="author"><p>created by Ryansdee</p></div>
-    </footer>
+  <div class="line5"></div>
+  <button id="allike"><strong>You might also like...</strong></button>
+  <div class="aslike" id="like">
+    <a href="/dinner/quick'n-easy-burrito-bowl.html" class="bk2">
+      <img src="/images/Bowl-1.webp" alt="">
+      <h3>Quick’n Easy Burrito Bowl</h3>
+    </a>
+    <a href="/dinner/Greek-Summer-Salad.html" class="bk5">
+      <img src="/images/Bowl-4.webp" alt="">
+      <h3>Greek Summer Pasta</h3>
+    </a>
+    <a href="/dinner/crustless-cheesy-Broccoli-Cauliflower-quiche.html" class="smth2">
+      <img src="/images/Pizza-2.webp" alt="">
+      <h3>Crustless Cheesy Broccoli Cauliflower Quiche</h3>
+    </a>
+    <a href="/dinner/Gimme-Green-Pasta.html" class="bk3">
+      <img src="/images/Pasta-5.webp" alt="">
+      <h3>Gimme Green Pasta</h3>
+    </a>
+  </div>
+  <footer>
+    <img src="/images/LOOR.webp" alt="">
+    <a href="https://www.instagram.com/eatwithloor/" target="_blank" class="instagram"><p>Instagram</p><img src="/images/insta-logo.webp" alt=""></a>
+    <a href="https://www.facebook.com/profile.php?id=61554782439440" target="_blank" class="Facebook"><p>Facebook</p><img src="/images/fb-logo.webp" alt=""></a>
+    <a href="https://www.tiktok.com/@eatwithloor" target="_blank" class="Tiktok"><p>Tik Tok</p><img src="/images/tiktok-logo.webp" alt=""></a>
+    <div class="Newsletter">Ready to cook? </div>
+    <div class="Month">Sign up for our monthly newsletter!</div>
+     <form action="subscribe.php" method="post">
+        <div class="email"><input type="email" placeholder="Email Address" name="mail" required></div>
+        <div class="sub"> <input type="submit" value="Subscribe"></div>
+      </form>
+      <div class="about" onclick="window.location.href='about.html';"> About us </div>
+      <div class="contact"> Contact </div>
+      <div class="copyright">&copy; EatWithLoor 2023</div>
+      <div class="author"><p>created by Ryansdee</p></div>
+      <div class="instalogo"><img src="/images/insta-logo.webp" alt=""></div>
+      <div class="fblogo"><img src="/images/fb-logo.webp" alt=""></div>
+      <div class="tiktoklogo"><img src="/images/tiktok-logo.webp" alt=""></div>
+</footer>
   </body>
   <script>
     function dev() {
