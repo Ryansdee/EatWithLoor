@@ -592,7 +592,7 @@ background: #03061f;
 display: inline-block;
 position: absolute;
 margin-top: 68.5vw;
-margin-left: 47vw;
+margin-left: 44vw;
 font-family: 'time';
 font-size: 1.4vw;
 border: 1px solid black;
@@ -617,7 +617,7 @@ display: inline-block;
 position: absolute;
 font-family: 'time';
 margin-top: 8vw;
-margin-left: 30vw;
+margin-left: 25vw;
 font-size: 1vw;
 }
 .nutrition p{
@@ -651,7 +651,7 @@ background: #03061f;
 #allike{
 display: inline-block;
 position: absolute;
-margin-top: 79vw;
+margin-top: -40vw;
 margin-left: 42.5vw;
 font-family: 'time';
 font-size: 1.4vw;
@@ -670,7 +670,7 @@ display: inline-block;
 position: absolute;
 font-family: 'time';
 text-align: center;
-margin-top: 20vw;
+margin-top: -100vw;
 margin-left: 33vw;
 font-weight: bold;
 }
