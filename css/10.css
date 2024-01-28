@@ -1231,7 +1231,7 @@ footer{
 }
   .page{
     width: 105vw;
-    height: 1150vw;
+    height: 1050vw;
     margin: 0;
     padding: 0;
     -webkit-background-size: contain;
@@ -1242,7 +1242,7 @@ footer{
   footer{
     width: 106vw;
     height: 100vw;
-    margin-top: 1130vw;
+    margin-top: 1030vw;
   }
   footer img{
     justify-content: center;
@@ -1473,7 +1473,7 @@ footer{
     border-radius: 2vw;
   }
   #title{
-    margin-top: 20vw;
+    margin-top: 23.5vw;
     margin-left: 8.7vw;
     font-size: 5vw;
     width: 72.4vw;
@@ -1595,7 +1595,7 @@ margin-top: 1vw;
 #instruction {
 display: block;
 position: absolute;
-margin-top: 260dvw;
+margin-top: 340dvw;
 margin-left: 9dvw;
 font-family: 'time';
 font-weight: bold;
@@ -1614,7 +1614,7 @@ color: white;
 display: inline-block;
 position: absolute;
 font-family: 'time';
-margin-top: 275dvw;
+margin-top: 355dvw;
 margin-left: 9dvw;
 width: 72vw;
 }
@@ -1628,7 +1628,7 @@ text-align: justify;
 #nutrition {
 display: block;
 position: absolute;
-margin-top: 660dvw;
+margin-top: 560dvw;
 margin-left: 8dvw;
 font-family: 'time';
 font-weight: bold;
@@ -1644,7 +1644,7 @@ padding-top: 1dvw;
 color: black;
 }
 .nutrition{
-  margin-top: 270dvw;
+  margin-top: 170dvw;
   margin-left: 8dvw;
 }
 .nutrition p {
@@ -1799,7 +1799,7 @@ position: absolute;
 font-family: 'time', serif;
 text-transform: uppercase;
 top: 72vw;
-left: 6vw;
+left: 4vw;
 font-size: 4vw;
 text-decoration: none;
 color: #050a30;
@@ -1824,8 +1824,8 @@ display: block;
 position: absolute;
 font-family: 'time', serif;
 text-transform: uppercase;
-top: 76vw;
-left: 6dvw;
+top: 74vw;
+left: 2dvw;
 font-size: 4vw;
 text-decoration: none;
 color: #050a30;

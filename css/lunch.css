@@ -1931,6 +1931,7 @@ footer .sub input{
         margin-left: -2.5vw;
         margin-top: -10vw;
         border-radius: 4vw;
+        background: white;
       }
       .l1 img{
         width: 70vw;
@@ -1945,7 +1946,6 @@ footer .sub input{
         padding-top: 2vw;
         width: 60vw;
         text-align: center;
-        background: transparent;
       }
       .l2{
         width: 70vw;
@@ -2201,12 +2201,12 @@ footer .sub input{
         align-self: center;
       }
       .l10 h3{
-        margin-top: 49vw;
+        margin-top: 47vw;
         font-size: 3.5vw;
         left: 0vw;
         width: 70vw;
-        height: 14vw;
-        padding-top: 2vw;
+        height: 16vw;
+        padding-top: 4vw;
         text-align: center;
         background: white;
       }
