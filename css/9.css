@@ -1231,7 +1231,7 @@ footer{
 }
   .page{
     width: 105vw;
-    height: 1000vw;
+    height: 1150vw;
     margin: 0;
     padding: 0;
     -webkit-background-size: contain;
@@ -1242,7 +1242,7 @@ footer{
   footer{
     width: 106vw;
     height: 100vw;
-    margin-top: 980vw;
+    margin-top: 1130vw;
   }
   footer img{
     justify-content: center;
@@ -1582,7 +1582,7 @@ color: white;
 display: inline-block;
 position: absolute;
 font-family: 'time';
-margin-top: 178vw;
+margin-top: 182vw;
 margin-left: 10vw;
 width: 78vw;
 }
@@ -1628,7 +1628,7 @@ text-align: justify;
 #nutrition {
 display: block;
 position: absolute;
-margin-top: 480dvw;
+margin-top: 660dvw;
 margin-left: 8dvw;
 font-family: 'time';
 font-weight: bold;
@@ -1644,7 +1644,7 @@ padding-top: 1dvw;
 color: black;
 }
 .nutrition{
-  margin-top: 90dvw;
+  margin-top: 270dvw;
   margin-left: 8dvw;
 }
 .nutrition p {
@@ -1703,14 +1703,14 @@ display: block;
 position: absolute;
 font-family: 'time';
 text-align: center;
-margin-top: -410vw;
+margin-top: -380vw;
 margin-left: 35vw;
 font-weight: bold;
 }
 #allike {
 display: block;
 position: absolute;
-margin-top: -460vw;
+margin-top: -430vw;
 margin-left: 12dvw;
 font-family: 'time';
 font-weight: bold;
