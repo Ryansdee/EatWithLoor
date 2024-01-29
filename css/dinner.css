@@ -493,7 +493,7 @@ footer{
 background: #e4e4e4;
 display: block;
 position: absolute;
-margin-top: 160vw;
+margin-top: 190vw;
 left: 0;
 top: 0;
 width: 100vw;
@@ -700,6 +700,30 @@ display: block;
 position: absolute;
 top: -0.65vw;
 }
+
+#pasta{
+  display: block;
+  position: absolute;
+  margin-top: 10dvw;
+}
+
+#pizza{
+  display: block;
+  position: absolute;
+  margin-top: 40dvw;
+  margin-left: 46dvw;
+}
+
+#salads{
+  display: block;
+  position: absolute;
+  margin-top: 100dvw;
+  margin-left: 46dvw;
+}
+
+
+
+µ
 /* breakfast */
 .intro{
 display: block;
@@ -726,7 +750,7 @@ width: 15vw;
 border-radius: 2vw;
 display: block;
 position: absolute;
-top: 2.3vw;
+top: 7dvw;
 border: 1px solid gray;
 left: 66vw;
 transition: 0.4s ease;
@@ -734,7 +758,7 @@ transition: 0.4s ease;
 .intro h1{
 font-size: 3vw;
 left: 22vw;
-top: 2vw;
+top: 7vw;
 color: #050a30;
 text-transform: uppercase;
 font-family: 'qura',serif;
@@ -759,7 +783,7 @@ border-radius: 1.5vw;
 }
 .recipees{
 width: 104vw;
-height: 140vw;
+height: 170vw;
 display: block;
 position: absolute;
 margin-top: 24.6vw;
@@ -782,7 +806,6 @@ color: #050a30;
 display: block;
 position: absolute;
 font-family: 'butler', serif;
-margin-top: 40vw;
 margin-left: 44.6vw;
 color: #050a30;
 font-size: 1.3vw;
@@ -914,6 +937,7 @@ font-size: 1.22vw;
   font-size: 1vw;
   text-decoration: none;
   color: #050a30;
+  text-align: center;
 }
 .bk1:hover{
   transform: scale(1.01);
@@ -952,6 +976,7 @@ font-size: 1.22vw;
   font-size: 1vw;
   text-decoration: none;
   color: #050a30;
+  text-align: center;
 }
 .bk2:hover{
   transform: scale(1.01);
@@ -1029,6 +1054,7 @@ font-size: 1.22vw;
   left: 1.6vw;
   font-size: 1vw;
   text-decoration: none;
+  text-align: center;
   color: #050a30;
 }
 .bk4:hover{
@@ -1067,6 +1093,7 @@ font-size: 1.22vw;
   font-size: 1vw;
   text-decoration: none;
   color: #050a30;
+  text-align: center;
 }
 .bk5:hover{
   transform: scale(1.01);
@@ -1105,6 +1132,7 @@ font-size: 1.22vw;
   font-size: 1vw;
   text-decoration: none;
   color: #050a30;
+  text-align: center;
 }
 .bk6:hover{
   transform: scale(1.01);
@@ -1144,6 +1172,7 @@ font-size: 1.22vw;
   position: absolute;
   font-family: 'time', serif;
   text-transform: uppercase;
+  text-align: center;
   top: 20vw;
   font-size: 1vw;
   left: 2.3vw;
@@ -1160,8 +1189,8 @@ font-size: 1.22vw;
   overflow: hidden;
   display: block;
   position: absolute;
-  top: 104vw;
-  left: 22vw;
+  top: 73vw;
+  left: 43vw;
   border-radius: 1vw;
   box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
   -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
@@ -1182,6 +1211,7 @@ font-size: 1.22vw;
   position: absolute;
   font-family: 'time', serif;
   text-transform: uppercase;
+  text-align: center;
   top: 20vw;
   left: 1.8vw;
   font-size: 1vw;
@@ -1197,8 +1227,8 @@ font-size: 1.22vw;
   height: 25vw;
   overflow: hidden;
   position: absolute;
-  top: 104vw;
-  left: 43vw;
+  top: 73vw;
+  left: 64vw;
   border-radius: 1vw;
   box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
   -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
@@ -1236,7 +1266,7 @@ font-size: 1.22vw;
   overflow: hidden;
   position: absolute;
   top: 104vw;
-  left: 64vw;
+  left: 22vw;
   border-radius: 1vw;
   box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
   -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
@@ -1260,6 +1290,7 @@ font-size: 1.22vw;
   top: 20vw;
   left: 4vw;
   font-size: 1vw;
+  text-align: center;
   text-decoration: none;
   color: #050a30;
 }
@@ -1273,7 +1304,7 @@ font-size: 1.22vw;
   overflow: hidden;
   position: absolute;
   top: 104vw;
-  left: 64vw;
+  left: 43vw;
   border-radius: 1vw;
   box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
   -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
@@ -1298,6 +1329,7 @@ font-size: 1.22vw;
   left: 4vw;
   font-size: 1vw;
   text-decoration: none;
+  text-align: center;
   color: #050a30;
 }
 .bk11:hover{
@@ -1309,8 +1341,8 @@ font-size: 1.22vw;
   height: 25vw;
   overflow: hidden;
   position: absolute;
-  top: 104vw;
-  left: 64vw;
+  top: 133vw;
+  left: 22vw;
   border-radius: 1vw;
   box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
   -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
@@ -1334,6 +1366,7 @@ font-size: 1.22vw;
   top: 20vw;
   left: 4vw;
   font-size: 1vw;
+  text-align: center;
   text-decoration: none;
   color: #050a30;
 }
@@ -1346,8 +1379,8 @@ font-size: 1.22vw;
   height: 25vw;
   overflow: hidden;
   position: absolute;
-  top: 104vw;
-  left: 64vw;
+  top: 133vw;
+  left: 43vw;
   border-radius: 1vw;
   box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
   -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
@@ -1373,6 +1406,7 @@ font-size: 1.22vw;
   font-size: 1vw;
   text-decoration: none;
   color: #050a30;
+  text-align: center;
 }
 .bk13:hover{
   transform: scale(1.01);
@@ -1383,7 +1417,7 @@ font-size: 1.22vw;
   height: 25vw;
   overflow: hidden;
   position: absolute;
-  top: 104vw;
+  top: 133vw;
   left: 64vw;
   border-radius: 1vw;
   box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
@@ -1409,6 +1443,7 @@ font-size: 1.22vw;
   left: 4vw;
   font-size: 1vw;
   text-decoration: none;
+  text-align: center;
   color: #050a30;
 }
 .bk14:hover{
@@ -1446,6 +1481,7 @@ font-size: 1.22vw;
   left: 4vw;
   font-size: 1vw;
   text-decoration: none;
+  text-align: center;
   color: #050a30;
 }
 .bk15:hover{
@@ -1463,7 +1499,7 @@ font-size: 1.22vw;
   font-size: 1.3vw;
 }
 .meals p{
-  margin-left: 48vw;
+  margin-left: 49vw;
 }
 .smooth{
   display: block;
