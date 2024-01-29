@@ -1093,7 +1093,7 @@ footer .Facebook img{
     filter: invert(0);
   }
   footer{
-    margin-top: 350vw;
+    margin-top: 420vw;
     height: 110vw;
     width: 103.3vw;
   }
@@ -1410,4 +1410,19 @@ animation: tel 4s ease;
     margin-top: -5vw;
     margin-left: 21vw;
   }
+  .instafeed{
+    display: block;
+    position: absolute;
+    margin-top: 230dvw;
+    left: 0;
+    margin-left: 0;
+    z-index: 10;
+    background: #050a30;
+  }
+.instafeed img{
+  width: 40dvw;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
 }
