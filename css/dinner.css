@@ -1573,116 +1573,110 @@ font-size: 1.22vw;
     padding-left: 8%;
   }
 }
-
-
-
 /* tablette */
-@media (max-width: 768px) {
-html{
-    overflow-x: hidden !important;
-}
-.nav {
-height: 6vw;
-width: 100%;
-padding: 1rem;
-text-decoration: none;
-}
-.nav h1{
-    font-size: 4vw;
+  @media (max-width: 768px) {
+    html{
+        overflow-x: hidden !important;
+    }
+    .nav {
+    height: 6vw;
+    width: 100%;
+    padding: 1rem;
     text-decoration: none;
+    }
+    .nav h1{
+        font-size: 4vw;
+        text-decoration: none;
+    }
+    .nav-btn{
+      margin-top: -3vw;
+    }
+    .nav-list{
+      margin-top: -8vw;
+      width: 100vw;
+      text-align: center;
+      margin-left: 0vw;
+    }
+    .home{
+      margin-left: 24vw;
+      font-size: 6vw;
+    }
+    .insta{
+      margin-left: 18vw;
+      font-size: 6vw;
+    }
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      left: 87vw;
+      top: 4vw;
+      color: black;
+      padding-top: 0.2rem;
+      text-decoration: none;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      padding: 13px;
+      text-decoration: none;
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #050a30;
+      text-align: center;
+      text-decoration: none;
+    }
+    .nav > .nav-list {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      columns: center;
+      gap: 1rem;
+      background: #e4e4e4;
+      height: 0;
+      transition: all 0.3s ease-in;
+      top: 18vw;
+      left: 0;
+      overflow: hidden;
+      text-align: center;
+      text-decoration: none;
+    }
+    .nav > .nav-list > li {
+      width: 100%;
+      margin-top: 5rem;
+      margin-left: 7rem;
+      text-align: center;
+      text-decoration: none;
+    }
+    .nav > .nav-list > li > a{
+      text-decoration: none;
+    }
+    .nav > #nav-check:checked ~ .nav-list {
+      height: calc(100vh - 50px);
+    }
+    .breakfast{
+      margin-top: 10vw;
+      width: 104vw;
+    }
+    .overlay{
+      margin-top: 17vw;
+      margin-left: 70vw;
+    }
+    .lunch{
+      width: 104vw;
+      margin-top: 30vw;
+    }
+    .lunch img{
+      margin-left: 50vw;
+    }
 }
-.nav-btn{
-  margin-top: -3vw;
-}
-.nav-list{
-  margin-top: -8vw;
-  width: 100vw;
-  text-align: center;
-}
-.home{
-  margin-left: 24vw;
-  font-size: 6vw;
-}
-.insta{
-  margin-left: 18vw;
-  font-size: 6vw;
-}
-.nav > .nav-btn {
-  display: inline-block;
-  position: absolute;
-  left: 87vw;
-  top: 4vw;
-  color: black;
-  padding-top: 0.2rem;
-  text-decoration: none;
-}
-.nav > .nav-btn > label {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  padding: 13px;
-  text-decoration: none;
-}
-.nav > .nav-btn > label > span {
-  display: block;
-  width: 25px;
-  height: 10px;
-  border-top: 2px solid #050a30;
-  text-align: center;
-  text-decoration: none;
-}
-.nav > .nav-list {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  columns: center;
-  gap: 1rem;
-  background: #e4e4e4;
-  height: 0;
-  transition: all 0.3s ease-in;
-  top: 18vw;
-  left: 0;
-  overflow: hidden;
-  text-align: center;
-  text-decoration: none;
-}
-.nav > .nav-list > li {
-  width: 100%;
-  margin-top: 5rem;
-  margin-left: 7rem;
-  text-align: center;
-  text-decoration: none;
-}
-.nav > .nav-list > li > a{
-  text-decoration: none;
-}
-.nav > #nav-check:checked ~ .nav-list {
-  height: calc(100vh - 50px);
-}
-.breakfast{
-  margin-top: 10vw;
-  width: 104vw;
-}
-.overlay{
-  margin-top: 17vw;
-  margin-left: 70vw;
-}
-.lunch{
-  width: 104vw;
-  margin-top: 30vw;
-}
-.lunch img{
-  margin-left: 50vw;
-}
-}
-
-
-
-
 
 /* téléphone */
 
-  @media (max-width: 432px) {
+  @media (max-width: 768px) {
     header {
         width: 95.5vw;
         height: 12vw;
@@ -1792,38 +1786,6 @@ text-decoration: none;
     margin-left: -12vw;
     font-size: 5vw;
   }
-  .Facebook{
-    display: block;
-    position: absolute;
-    margin-top: 91.4vw;
-    margin-left: -0vw;
-  }
-  .Facebook img{
-    width: 12vw;
-    filter: none;
-    display: block;
-  }
-  .insta{
-    display: block;
-    position: absolute;
-    margin-top: 0.8vw;
-    margin-left: 10vw;
-  }
-  .insta img{
-    width: 11.8vw;
-    display: block;
-  }
-  .Tiktok{
-    display: block;
-    position: absolute;
-    margin-top: 90vw;
-    margin-left: 15vw;
-  }
-  .Tiktok img{
-    width: 12vw;
-    display: block;
-    filter: invert(0);
-  }
   .copyright{
     margin-top: 81vw;
     margin-left: 20.5vw;
@@ -1838,15 +1800,9 @@ text-decoration: none;
   .instagram{
     display: none;
   }
-  .nav{
-    height: 15vw;
-    width: 100%;
-    box-shadow: none;
-    border-bottom: 1px solid #dadada;
-  }
   .nav > .nav-list > li {
-    margin-top: 10vw;
-    padding-top: -1vw;
+    margin-top: 5vw;
+    padding-top: 3vw;
     margin-left: 6vw;
     text-align: center;
   }
@@ -1855,12 +1811,13 @@ text-decoration: none;
     font-size: 9vw;
   }
   .nav {
-      width: 98vw;
+      width: 95vw;
       height: 12vw;
+      box-shadow: none;
   }
   .nav-list {
       margin-top: 1vw;
-      width: 96vw;
+      width: 93vw;
       background: #e4e4e4;
   }
   .nav-list .oatmeals{
@@ -1883,12 +1840,6 @@ text-decoration: none;
       margin-top: 4vw;
       margin-left: 2vw;
   }
-  .intro .p1{
-    display: none;
-  }
-  .nav-list{
-    margin-left: 0vw;
-  }
   label{
     width: 10vw;
   }
@@ -1897,7 +1848,51 @@ text-decoration: none;
     position: absolute;
     width: 70vw;
     margin-top: 1.4vw;
-    margin-left: 25vw;
+    margin-left: 20vw;
+  }
+  .nav-list .insta p{
+    display: none;
+  }
+  .nav-list .Facebook{
+    display: block;
+  }
+  .nav-list .Tiktok{
+    display: block;
+  }
+  .nav-list .insta img{
+    display: block;
+  }
+  .Facebook{
+    display: block;
+    position: absolute;
+    margin-top: 91.4vw;
+    margin-left: -2vw;
+  }
+  .Facebook img{
+    width: 12vw;
+    filter: none;
+    display: block;
+  }
+  .insta{
+    display: block;
+    position: absolute;
+    margin-top: -0.8vw;
+    margin-left: 14vw;
+  }
+  .insta img{
+    width: 11.8vw;
+    display: block;
+  }
+  .Tiktok{
+    display: block;
+    position: absolute;
+    margin-top: 89.5vw;
+    margin-left: 14vw;
+  }
+  .Tiktok img{
+    width: 12vw;
+    display: block;
+    filter: invert(0);
   }
   .linkss a{
     display: none;
