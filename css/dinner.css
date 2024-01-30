@@ -2000,6 +2000,7 @@ font-size: 1.22vw;
     margin-top: 210vw;
     width: 109vw;
     height: 1350vw;
+    background: transparent;
   }
   .recipees h2{
     display: none;
@@ -2106,7 +2107,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -2.5vw;
+    margin-left: -3vw;
     top: 258vw;
     border-radius: 4vw;
   }
@@ -2130,7 +2131,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -23.5vw;
+    margin-left: -24vw;
     top: 343vw;
     border-radius: 4vw;
   }
@@ -2155,7 +2156,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -44vw;
+    margin-left: -45vw;
     top: 430vw;
     border-radius: 4vw;
   }
@@ -2191,7 +2192,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -1vw;
+    margin-left: -3vw;
     top: 537vw;
     border-radius: 4vw;
   }
@@ -2222,7 +2223,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -21vw;
+    margin-left: -24vw;
     top: 624vw;
     border-radius: 4vw;
   }
@@ -2247,7 +2248,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -42vw;
+    margin-left: -45vw;
     top: 711vw;
     border-radius: 4vw;
   }
@@ -2277,7 +2278,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -43vw;
+    margin-left: -3vw;
     top: 815vw;
     border-radius: 4vw;
   }
@@ -2302,7 +2303,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -43vw;
+    margin-left: -24vw;
     top: 902vw;
     border-radius: 4vw;
   }
@@ -2327,7 +2328,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -1vw;
+    margin-left: -3vw;
     top: 989vw;
     border-radius: 4vw;
   }
@@ -2352,7 +2353,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -22vw;
+    margin-left: -24vw;
     top: 1076vw;
     border-radius: 4vw;
   }
@@ -2377,7 +2378,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -43vw;
+    margin-left: -45vw;
     top: 1163vw;
     border-radius: 4vw;
   }
@@ -2402,7 +2403,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -43vw;
+    margin-left: -45vw;
     top: 1250vw;
     border-radius: 4vw;
   }
