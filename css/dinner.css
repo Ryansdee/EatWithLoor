@@ -723,12 +723,11 @@ top: -0.65vw;
 
 
 
-µ
-/* breakfast */
 .intro{
 display: block;
 position: absolute;
 height: 20vw;
+font-family: 'qura',serif;
 width: 100vw;
 top: 5vw;
 left: 0;
@@ -743,14 +742,14 @@ position: absolute;
 margin-top: 1vw;
 }
 .intro p{
-margin-top: 6vw;
+margin-top: 2vw;
 }
 .intro img{
 width: 15vw;
 border-radius: 2vw;
 display: block;
 position: absolute;
-top: 7dvw;
+top: 2dvw;
 border: 1px solid gray;
 left: 66vw;
 transition: 0.4s ease;
@@ -758,10 +757,19 @@ transition: 0.4s ease;
 .intro h1{
 font-size: 3vw;
 left: 22vw;
-top: 7vw;
+top: 1vw;
 color: #050a30;
 text-transform: uppercase;
 font-family: 'qura',serif;
+display: block;
+position: absolute;
+}
+.intro h3{
+  width: 35dvw;
+left: 22vw;
+top: 10vw;
+color: black;
+font-family: 'time',serif;
 display: block;
 position: absolute;
 }
@@ -770,7 +778,7 @@ display: block;
 position: absolute;
 font-family: 'time',serif;
 font-weight: bold;
-top: 7vw;
+top: 4vw;
 left: 22vw;  
 width: 35vw;
 font-size: 1vw;
@@ -788,6 +796,10 @@ display: block;
 position: absolute;
 margin-top: 24.6vw;
 left: 0;
+background-image:
+linear-gradient(rgba(245, 246, 252, 0.840), rgba(245, 246, 252, 0.840)),
+url('/images/background-2.webp');
+background-size: contain;
 }
 .recipees h2{
 font-family: 'butler', serif;
@@ -1982,9 +1994,10 @@ font-size: 1.22vw;
     margin-top: 97vw;
     margin-left: -6vw;
     text-align: center;
+    display: none;
   }
   .recipees{
-    margin-top: 260vw;
+    margin-top: 210vw;
     width: 109vw;
     height: 1350vw;
   }
@@ -2093,7 +2106,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -2.4vw;
+    margin-left: -2.5vw;
     top: 258vw;
     border-radius: 4vw;
   }
@@ -2117,7 +2130,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -23.4vw;
+    margin-left: -23.5vw;
     top: 343vw;
     border-radius: 4vw;
   }
@@ -2209,7 +2222,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -1vw;
+    margin-left: -21vw;
     top: 624vw;
     border-radius: 4vw;
   }
@@ -2234,7 +2247,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -22vw;
+    margin-left: -42vw;
     top: 711vw;
     border-radius: 4vw;
   }
@@ -2314,7 +2327,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -43vw;
+    margin-left: -1vw;
     top: 989vw;
     border-radius: 4vw;
   }
@@ -2339,7 +2352,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -43vw;
+    margin-left: -22vw;
     top: 1076vw;
     border-radius: 4vw;
   }
@@ -2408,5 +2421,10 @@ font-size: 1.22vw;
     padding-top: 2vw;
     text-align: center;
     background: white;
+  }
+  .intro h3{
+    width: 80dvw;
+    margin-top: 100dvw;
+    margin-left: -10dvw;
   }
 }
