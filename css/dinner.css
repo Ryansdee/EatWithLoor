@@ -1858,14 +1858,29 @@ font-size: 1.22vw;
     text-decoration: none;
     font-size: 9vw;
   }
+  .nav{
+    height: 15vw;
+    width: 100%;
+    box-shadow: none;
+    border-bottom: 1px solid #dadada;
+  }
+  .nav > .nav-list > li {
+    margin-top: 10vw;
+    padding-top: -1vw;
+    margin-left: 6vw;
+    text-align: center;
+  }
+  .nav > .nav-list > li a {
+    text-decoration: none;
+    font-size: 9vw;
+  }
   .nav {
-      width: 95vw;
+      width: 98vw;
       height: 12vw;
-      box-shadow: none;
   }
   .nav-list {
       margin-top: 1vw;
-      width: 93vw;
+      width: 96vw;
       background: #e4e4e4;
   }
   .nav-list .oatmeals{
@@ -1888,6 +1903,12 @@ font-size: 1.22vw;
       margin-top: 4vw;
       margin-left: 2vw;
   }
+  .intro .p1{
+    display: none;
+  }
+  .nav-list{
+    margin-left: 0vw;
+  }
   label{
     width: 10vw;
   }
@@ -1896,19 +1917,7 @@ font-size: 1.22vw;
     position: absolute;
     width: 70vw;
     margin-top: 1.4vw;
-    margin-left: 20vw;
-  }
-  .nav-list .insta p{
-    display: none;
-  }
-  .nav-list .Facebook{
-    display: block;
-  }
-  .nav-list .Tiktok{
-    display: block;
-  }
-  .nav-list .insta img{
-    display: block;
+    margin-left: 25vw;
   }
   .Facebook{
     display: block;
