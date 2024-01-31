@@ -617,7 +617,7 @@ display: inline-block;
 position: absolute;
 font-family: 'time';
 margin-top: 15vw;
-margin-left: 27vw;
+margin-left: 29vw;
 font-size: 1vw;
 }
 .nutrition p{
@@ -1201,6 +1201,8 @@ footer{
     width: 100%;
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(rgba(245, 246, 252, 0.890), rgba(245, 246, 252, 0.890)), url('/images/background-2.webp');
+    background-size: cover;
   }
 .Facebook{
   display: block;
@@ -1231,18 +1233,15 @@ footer{
 }
   .page{
     width: 105vw;
-    height: 1100vw;
+    height: 1030vw;
     margin: 0;
     padding: 0;
-    -webkit-background-size: contain;
-    background-size: contain;
-    background-image: linear-gradient(rgba(245, 246, 252, 0.890), rgba(245, 246, 252, 0.890)), url(/images/background-2.webp);
-    background-repeat: repeat;
+    background: #ffffff54;
   }
   footer{
     width: 106vw;
     height: 100vw;
-    margin-top: 1030vw;
+    margin-top: 940vw;
   }
   footer img{
     justify-content: center;
@@ -1628,7 +1627,7 @@ text-align: justify;
 #nutrition {
 display: block;
 position: absolute;
-margin-top: 510dvw;
+margin-top: 430dvw;
 margin-left: 8dvw;
 font-family: 'time';
 font-weight: bold;
@@ -1644,7 +1643,7 @@ padding-top: 1dvw;
 color: black;
 }
 .nutrition{
-  margin-top: 120dvw;
+  margin-top: 45dvw;
   margin-left: 8dvw;
 }
 .nutrition p {
