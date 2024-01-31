@@ -1233,7 +1233,7 @@
   }
     .page{
       width: 105vw;
-      height: 1120vw;
+      height: 1280vw;
       margin: 0;
       padding: 0;
       background: #ffffff54;
@@ -1241,7 +1241,7 @@
     footer{
       width: 106vw;
       height: 100vw;
-      margin-top: 1030vw;
+      margin-top: 1200vw;
     }
     footer img{
       justify-content: center;
@@ -1472,7 +1472,7 @@
       border-radius: 2vw;
     }
     #title{
-      margin-top: 20vw;
+      margin-top: 23vw;
       margin-left: 8.7vw;
       font-size: 5vw;
       width: 72.4vw;
@@ -1594,7 +1594,7 @@
   #instruction {
   display: block;
   position: absolute;
-  margin-top: 280dvw;
+  margin-top: 380dvw;
   margin-left: 13dvw;
   font-family: 'time';
   font-weight: bold;
@@ -1613,7 +1613,7 @@
   display: inline-block;
   position: absolute;
   font-family: 'time';
-  margin-top: 300dvw;
+  margin-top: 395dvw;
   margin-left: 12dvw;
   width: 72vw;
   }
@@ -1627,7 +1627,7 @@
   #nutrition {
   display: block;
   position: absolute;
-  margin-top: 530dvw;
+  margin-top: 700dvw;
   margin-left: 12dvw;
   font-family: 'time';
   font-weight: bold;
@@ -1643,7 +1643,7 @@
   color: black;
   }
   .nutrition{
-    margin-top: 140dvw;
+    margin-top: 310dvw;
     margin-left: 12dvw;
   }
   .nutrition p {
@@ -1745,8 +1745,8 @@
   position: absolute;
   font-family: 'time', serif;
   text-transform: uppercase;
-  top: 76dvw;
-  margin-left: 14dvw;
+  top: 75.5dvw;
+  margin-left: 4dvw;
   font-size: 4vw;
   text-decoration: none;
   color: #050a30;
@@ -1771,8 +1771,8 @@
   position: absolute;
   font-family: 'time', serif;
   text-transform: uppercase;
-  top: 73dvw;
-  margin-left: 0.5dvw;
+  top: 75.5dvw;
+  margin-left: 10dvw;
   font-size: 4vw;
   text-decoration: none;
   color: #050a30;
@@ -1797,8 +1797,8 @@
   position: absolute;
   font-family: 'time', serif;
   text-transform: uppercase;
-  top: 71dvw;
-  margin-left: 0.5dvw;
+  top: 72.5dvw;
+  margin-left: 5vw;
   font-size: 4vw;
   text-decoration: none;
   color: #050a30;
@@ -1823,8 +1823,8 @@
   position: absolute;
   font-family: 'time', serif;
   text-transform: uppercase;
-  top: 73.5dvw;
-  margin-left: 0.5dvw;
+  top: 75dvw;
+  margin-left: 5vw;
   font-size: 4vw;
   text-decoration: none;
   color: #050a30;
