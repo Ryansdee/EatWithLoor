@@ -1231,7 +1231,7 @@ footer{
 }
   .page{
     width: 105vw;
-    height: 1150vw;
+    height: 1100vw;
     margin: 0;
     padding: 0;
     -webkit-background-size: contain;
@@ -1703,14 +1703,14 @@ display: block;
 position: absolute;
 font-family: 'time';
 text-align: center;
-margin-top: -520vw;
+margin-top: -470vw;
 margin-left: 34vw;
 font-weight: bold;
 }
 #allike {
 display: block;
 position: absolute;
-margin-top: -570vw;
+margin-top: -520vw;
 margin-left: 11dvw;
 font-family: 'time';
 font-weight: bold;
