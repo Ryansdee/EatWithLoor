@@ -1600,7 +1600,7 @@ margin-top: 1vw;
 #instruction {
 display: block;
 position: absolute;
-margin-top: 280dvw;
+margin-top: 250dvw;
 margin-left: 13dvw;
 font-family: 'time';
 font-weight: bold;
@@ -1619,7 +1619,7 @@ color: white;
 display: inline-block;
 position: absolute;
 font-family: 'time';
-margin-top: 300dvw;
+margin-top: 270dvw;
 margin-left: 12dvw;
 width: 72vw;
 }
@@ -1633,7 +1633,7 @@ text-align: justify;
 #nutrition {
 display: block;
 position: absolute;
-margin-top: 530dvw;
+margin-top: 543dvw;
 margin-left: 12dvw;
 font-family: 'time';
 font-weight: bold;
@@ -1649,7 +1649,7 @@ padding-top: 1dvw;
 color: black;
 }
 .nutrition{
-  margin-top: 140dvw;
+  margin-top: 148dvw;
   margin-left: 12dvw;
 }
 .nutrition p {
