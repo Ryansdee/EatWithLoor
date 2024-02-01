@@ -11,8 +11,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars(trim($message));
 
     // Send email (you may need to configure your mail server for this)
-    $to = "newsletter@eatwithloor.com"; // Replace with your email address
-    $subject = "New Contact Form Submission";
+    $to = "contact@eatwithloor.com"; // Replace with your email address
+    $subject = "New messages from 'contact us'";
     $headers = "From: $email";
 
     // Compose the email message
