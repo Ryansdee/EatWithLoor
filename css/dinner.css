@@ -952,7 +952,7 @@ font-size: 1.22vw;
   font-family: 'time', serif;
   text-transform: uppercase;
   top: 20vw;
-  left: 2.5vw;
+  left: 4.5vw;
   font-size: 1vw;
   text-decoration: none;
   color: #050a30;
@@ -1029,7 +1029,7 @@ font-size: 1.22vw;
   position: absolute;
   font-family: 'time', serif;
   text-transform: uppercase;
-  top: 19.8vw;
+  top: 20vw;
   left: 2vw;
   width: 15vw;
   font-size: 1vw;
@@ -1070,7 +1070,7 @@ font-size: 1.22vw;
   font-family: 'time', serif;
   text-transform: uppercase;
   top: 20vw;
-  left: 1.6vw;
+  left: 3vw;
   font-size: 1vw;
   text-decoration: none;
   text-align: center;
@@ -1108,7 +1108,7 @@ font-size: 1.22vw;
   font-family: 'time', serif;
   text-transform: uppercase;
   top: 20vw;
-  left: 1vw;
+  left: 4vw;
   font-size: 1vw;
   text-decoration: none;
   color: #050a30;
@@ -1147,7 +1147,7 @@ font-size: 1.22vw;
   font-family: 'time', serif;
   text-transform: uppercase;
   top: 20vw;
-  left: 3.3vw;
+  left: 1vw;
   font-size: 1vw;
   text-decoration: none;
   color: #050a30;
@@ -1194,7 +1194,7 @@ font-size: 1.22vw;
   text-align: center;
   top: 20vw;
   font-size: 1vw;
-  left: 2.3vw;
+  left: 1.5vw;
   text-decoration: none;
   color: #050a30;
 }
@@ -1231,8 +1231,8 @@ font-size: 1.22vw;
   font-family: 'time', serif;
   text-transform: uppercase;
   text-align: center;
-  top: 20vw;
-  left: 1.8vw;
+  top: 19.5vw;
+  left: 0.2dvw;
   font-size: 1vw;
   text-decoration: none;
   color: #050a30;
@@ -1268,8 +1268,8 @@ font-size: 1.22vw;
   position: absolute;
   font-family: 'time', serif;
   text-transform: uppercase;
-  top: 19.5vw;
-  left: 0vw;
+  top: 20dvw;
+  left: 1.3vw;
   font-size: 1vw;
   text-align: center;
   text-decoration: none;
@@ -1307,7 +1307,7 @@ font-size: 1.22vw;
   font-family: 'time', serif;
   text-transform: uppercase;
   top: 20vw;
-  left: 4vw;
+  left: 1.5vw;
   font-size: 1vw;
   text-align: center;
   text-decoration: none;
@@ -1345,7 +1345,7 @@ font-size: 1.22vw;
   font-family: 'time', serif;
   text-transform: uppercase;
   top: 20vw;
-  left: 4vw;
+  left: 2.5vw;
   font-size: 1vw;
   text-decoration: none;
   text-align: center;
@@ -1383,7 +1383,7 @@ font-size: 1.22vw;
   font-family: 'time', serif;
   text-transform: uppercase;
   top: 20vw;
-  left: 4vw;
+  left: 3.5vw;
   font-size: 1vw;
   text-align: center;
   text-decoration: none;
@@ -1459,7 +1459,7 @@ font-size: 1.22vw;
   font-family: 'time', serif;
   text-transform: uppercase;
   top: 20vw;
-  left: 4vw;
+  left: 3.5vw;
   font-size: 1vw;
   text-decoration: none;
   text-align: center;
@@ -1497,7 +1497,7 @@ font-size: 1.22vw;
   font-family: 'time', serif;
   text-transform: uppercase;
   top: 20vw;
-  left: 4vw;
+  left: 1.5vw;
   font-size: 1vw;
   text-decoration: none;
   text-align: center;
@@ -2040,7 +2040,7 @@ font-size: 1.22vw;
     display: none;
   }
   .links{
-    margin-top: -60vw;
+    margin-top: -68vw;
     margin-left: -0.1vw;
     justify-content: left;
   }
@@ -2065,7 +2065,7 @@ font-size: 1.22vw;
     box-shadow: none;
   }
   #pasta{
-    margin-top: -234.5vw;
+    margin-top: -236.5vw;
     margin-left: 43dvw;
     font-size: 6vw;
   }
@@ -2176,7 +2176,7 @@ font-size: 1.22vw;
     align-self: center;
   }
   .bk5 h3{
-    margin-top: 44vw;
+    margin-top: 48dvw;
     font-size: 5vw;
     left: 0.7vw;
     width: 70vw;
@@ -2201,7 +2201,7 @@ font-size: 1.22vw;
     align-self: center;
   }
   .bk6 h3{
-    margin-top: 44vw;
+    margin-top: 40vw;
     font-size: 5vw;
     left: 0.7vw;
     width: 70vw;
@@ -2268,8 +2268,8 @@ font-size: 1.22vw;
     align-self: center;
   }
   .bk8 h3{
-    margin-top: 44.4vw;
-    font-size: 5vw;
+    margin-top: 45vw;
+    font-size: 4vw;
     left: 0.7vw;
     width: 70vw;
     height: 14vw;
@@ -2293,14 +2293,14 @@ font-size: 1.22vw;
     align-self: center;
   }
   .bk9 h3{
-    margin-top: 44.4vw;
-    font-size: 5vw;
-    left: 0vw;
-    width: 70vw;
+    margin-top: 47vw;
+    font-size: 4vw;
+    left: 5vw;
+    width: 60vw;
     height: 14vw;
     padding-top: 2vw;
     text-align: center;
-    background: white;
+    background: transparent;
   }
   #salads{
     margin-top: 800vw;
@@ -2323,14 +2323,14 @@ font-size: 1.22vw;
     align-self: center;
   }
   .bk10 h3{
-    margin-top: 44.4vw;
-    font-size: 5vw;
-    left: 0vw;
+    margin-top: 48.5vw;
+    font-size: 4vw;
+    left: 2vw;
     width: 70vw;
     height: 14vw;
     padding-top: 2vw;
     text-align: center;
-    background: white;
+    background: transparent;
   }
   .bk11{
     display: block;
@@ -2348,14 +2348,14 @@ font-size: 1.22vw;
     align-self: center;
   }
   .bk11 h3{
-    margin-top: 44.4vw;
-    font-size: 5vw;
-    left: 0vw;
+    margin-top: 48.5vw;
+    left: 2vw;
+    background: transparent;
+    font-size: 4vw;
     width: 70vw;
     height: 14vw;
     padding-top: 2vw;
     text-align: center;
-    background: white;
   }
   .bk12{
     display: block;
@@ -2373,14 +2373,14 @@ font-size: 1.22vw;
     align-self: center;
   }
   .bk12 h3{
-    margin-top: 44.4vw;
-    font-size: 5vw;
-    left: 0vw;
+    margin-top: 48.5vw;
+    left: 1vw;
+    background: transparent;
+    font-size: 4vw;
     width: 70vw;
     height: 14vw;
     padding-top: 2vw;
     text-align: center;
-    background: white;
   }
   .bk13{
     display: block;
@@ -2398,14 +2398,14 @@ font-size: 1.22vw;
     align-self: center;
   }
   .bk13 h3{
-    margin-top: 44.4vw;
-    font-size: 5vw;
-    left: 0vw;
+    margin-top: 48.5vw;
+    left: 1vw;
+    background: transparent;
+    font-size: 4vw;
     width: 70vw;
     height: 14vw;
     padding-top: 2vw;
     text-align: center;
-    background: white;
   }
   .bk14{
     display: block;
@@ -2423,14 +2423,14 @@ font-size: 1.22vw;
     align-self: center;
   }
   .bk14 h3{
-    margin-top: 44.4vw;
-    font-size: 5vw;
-    left: 0vw;
+    margin-top: 48.5vw;
+    left: 1vw;
+    background: transparent;
+    font-size: 4vw;
     width: 70vw;
     height: 14vw;
     padding-top: 2vw;
     text-align: center;
-    background: white;
   }
   .bk15{
     display: block;
@@ -2448,14 +2448,14 @@ font-size: 1.22vw;
     align-self: center;
   }
   .bk15 h3{
-    margin-top: 44.4vw;
-    font-size: 5vw;
-    left: 0vw;
+    margin-top: 48.5vw;
+    left: 1vw;
+    background: transparent;
+    font-size: 4vw;
     width: 70vw;
     height: 14vw;
     padding-top: 2vw;
     text-align: center;
-    background: white;
   }
   .intro h3{
     width: 80dvw;
