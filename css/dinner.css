@@ -1888,6 +1888,7 @@ font-size: 1.22vw;
   .nav {
       width: 98vw;
       height: 12vw;
+      z-index: 130;
   }
   .nav-list {
       margin-top: 1vw;
@@ -1951,6 +1952,10 @@ font-size: 1.22vw;
     width: 11.8vw;
     display: block;
   }
+  .insta{
+    margin-top: -16dvw;
+    margin-left: 7.8dvw;
+  }
   .Tiktok{
     display: block;
     position: absolute;
@@ -1972,15 +1977,24 @@ font-size: 1.22vw;
     display: none;
     margin-left: 14vw;
   }
-  .oatmeals{
+  .nav-list .oatmeals{
     padding-top: 0vw;
     margin-left: -24vw;
   }
-  .smoothies{
-    display: block;
-    position: absolute;
-    margin-top: -5vw;
-    margin-left: 18vw;
+  .nav-list .pancakes{
+    padding-top: 0vw;
+    margin-top: -12vw;
+    margin-left: -24vw;
+  }
+  .nav-list .savory{
+    padding-top: 0vw;
+    margin-top: -12vw;
+    margin-left: -24vw;
+  }
+  .nav-list .smoothies{
+    padding-top: 0vw;
+    margin-top: -12vw;
+    margin-left: -24vw;
   }
   .intro{
     margin-top: 14vw;

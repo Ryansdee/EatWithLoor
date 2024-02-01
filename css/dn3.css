@@ -390,7 +390,12 @@ display: block;
 position: absolute;
 top: -0.65vw;
 }
-.links a{
+.linkss{  
+  display: block;
+  position: absolute;
+  margin-left: 34dvw;
+}
+.linkss a{
 display: inline-block;
 text-align: center;
 font-size: 1.2vw;
@@ -398,10 +403,10 @@ text-decoration: none;
 font-family: 'time', serif;
 font-weight: bold;
 border: 1px solid transparent;
-width: 12vw;
+width: 8vw;
 transition: 0.5s ease;
 }
-.links a:hover {
+.linkss a:hover {
 background: #f0f0f0;
 color: black;
 border: 0.1vw solid #5f5f5f;
@@ -725,7 +730,7 @@ position: absolute;
 font-family: 'time', serif;
 text-transform: uppercase;
 top: 14vw;
-left: 0.35dvw;
+left: 2.4dvw;
 text-decoration: none;
 color: #050a30;
 font-size: 0.9vw;
@@ -764,7 +769,7 @@ position: absolute;
 font-family: 'time', serif;
 text-transform: uppercase;
 top: 14dvw;
-left: 1.8dvw;
+left: 2.4dvw;
 text-decoration: none;
 color: #050a30;
 font-size: 0.9vw;
@@ -803,7 +808,7 @@ position: absolute;
 font-family: 'time', serif;
 text-transform: uppercase;
 top: 14dvw;
-left: 1dvw;
+left: 2.2dvw;
 text-decoration: none;
 color: #050a30;
 font-size: 0.9vw;
@@ -842,7 +847,7 @@ position: absolute;
 font-family: 'time', serif;
 text-transform: uppercase;
 top: 14dvw;
-left: 0.5dvw;
+left: 1dvw;
 text-decoration: none;
 color: #050a30;
 font-size: 0.9vw;
@@ -1233,7 +1238,7 @@ footer{
 }
   .page{
     width: 105vw;
-    height: 1040vw;
+    height: 1080vw;
     margin: 0;
     padding: 0;
     background: #ffffff54;
@@ -1241,7 +1246,7 @@ footer{
   footer{
     width: 106vw;
     height: 100vw;
-    margin-top: 960vw;
+    margin-top: 980vw;
   }
   footer img{
     justify-content: center;
@@ -1442,7 +1447,7 @@ footer{
     margin-top: 1.4vw;
     margin-left: 16vw;
   }
-  .links{
+  .linkss{
     display: none;
   }
   .home{
@@ -1627,7 +1632,7 @@ text-align: justify;
 #nutrition {
 display: block;
 position: absolute;
-margin-top: 450dvw;
+margin-top: 483dvw;
 margin-left: 12dvw;
 font-family: 'time';
 font-weight: bold;
@@ -1643,7 +1648,7 @@ padding-top: 1dvw;
 color: black;
 }
 .nutrition{
-  margin-top: 60dvw;
+  margin-top: 97dvw;
   margin-left: 12dvw;
 }
 .nutrition p {
@@ -1746,7 +1751,7 @@ position: absolute;
 font-family: 'time', serif;
 text-transform: uppercase;
 top: 76dvw;
-margin-left: 3dvw;
+margin-left: 11dvw;
 font-size: 4vw;
 text-decoration: none;
 color: #050a30;
@@ -1772,7 +1777,7 @@ position: absolute;
 font-family: 'time', serif;
 text-transform: uppercase;
 top: 75.5dvw;
-margin-left: 7dvw;
+margin-left: 11dvw;
 font-size: 4vw;
 text-decoration: none;
 color: #050a30;
@@ -1798,7 +1803,7 @@ position: absolute;
 font-family: 'time', serif;
 text-transform: uppercase;
 top: 72dvw;
-margin-left: 8dvw;
+margin-left: 9dvw;
 font-size: 4vw;
 text-decoration: none;
 color: #050a30;
@@ -1824,7 +1829,7 @@ position: absolute;
 font-family: 'time', serif;
 text-transform: uppercase;
 top: 76dvw;
-margin-left: 3.5dvw;
+margin-left: 6dvw;
 font-size: 4vw;
 text-decoration: none;
 color: #050a30;
