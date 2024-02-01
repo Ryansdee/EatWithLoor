@@ -1,17 +1,24 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $message = $_POST["message"];
 
-    $to = "ryan.deschuyteneer@gmail.com";
-    $subject = "New Contact Form Submission";
-    $headers = "From: $email";
+$errors = [];
 
-    mail($to, $subject, $message, $headers);
+if (!empty($_POST)) {
+   $name = $_POST['name'];
+   $email = $_POST['email'];
+   $message = $_POST['message'];
+  
+   if (empty($name)) {
+       $errors[] = 'Name is empty';
+   }
 
-    // Vous pouvez rediriger l'utilisateur vers une page de confirmation
-    header("Location: thank-you.html");
-    exit();
+   if (empty($email)) {
+       $errors[] = 'Email is empty';
+   } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+       $errors[] = 'Email is invalid';
+   }
+
+   if (empty($message)) {
+       $errors[] = 'Message is empty';
+   }
 }
 ?>
