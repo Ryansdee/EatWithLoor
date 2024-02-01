@@ -1600,7 +1600,7 @@ margin-top: 1vw;
 #instruction {
 display: block;
 position: absolute;
-margin-top: 280dvw;
+margin-top: 300dvw;
 margin-left: 13dvw;
 font-family: 'time';
 font-weight: bold;
@@ -1619,7 +1619,7 @@ color: white;
 display: inline-block;
 position: absolute;
 font-family: 'time';
-margin-top: 300dvw;
+margin-top: 320dvw;
 margin-left: 12dvw;
 width: 72vw;
 }
