@@ -1,11 +1,835 @@
-/* Styles pour le formulaire de contact */
+@font-face {
+    font-family: ewl;
+    src: url(/font/ewl.otf);
+  }
+  @font-face {
+    font-family: food;
+    src: url(/font/Super\ Foods.ttf);
+  }
+  @font-face {
+  font-family: vogue;
+  src: url(/font/vogue.ttf);
+  }
+  @font-face {
+  font-family: qura;
+  src: url(/font/qura.otf);
+  }
+  @font-face {
+  font-family: butler;
+  src: url(/font/buttler.otf);
+  }
+  @font-face {
+  font-family: time;
+  src: url(/font/Timeless.ttf);
+  }
+  @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+  
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+  html{
+    overflow-x: hidden;
+    scroll-behavior: smooth
+  }
+  body{
+    background-image:
+    linear-gradient(rgba(245, 246, 252, 0.840), rgba(245, 246, 252, 0.840)),
+    url('/images/background-2.webp');
+    background-size: cover;
+  }
+  .linkss{
+  width: 100vw;
+  height: 10vw;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  top: 2vw;
+  left: 0vw;
+  }
+  .linkss a{
+  display: inline-block;
+  text-align: center;
+  font-size: 1.2vw;
+  text-decoration: none;
+  font-family: 'time', serif;
+  font-weight: bold;
+  border: 1px solid transparent;
+  width: 7vw;
+  transition: 0.5s ease;
+  background: transparent;
+  }
+  .linkss a:hover{
+  background: transparent;
+  color: black;
+  border: 0.1vw solid #5f5f5f;
+  box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
+  -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
+  -moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
+  font-size: 1.22vw;
+  }
+  .nav {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #e4e4e4;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    height: 5vw;
+    box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+    -moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+    z-index: 11;
+  }
+  .nav-title img{
+    display: block;
+    position: absolute;
+    width: 18vw;
+    color: white;
+    top: 0.45vw;
+    left: -1vw;
+  }
+   .nav > .nav-header {
+    flex: 0.95;
+    padding-left: 1rem;
+  }
+  .nav > .nav-header > .nav-title {
+    font-size: 22px;
+    color: #fff;
+  }
+  .nav > .nav-list {
+    display: flex;
+    gap: 2rem;
+    z-index: 10;
+  }
+  .nav > .nav-list > li {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .nav > .nav-list > li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'butler', serif;
+    cursor: pointer;
+  }
+  .nav > #nav-check {
+      display: none;
+  }
+  .nav-list{
+    margin-left: 78.2vw;
+  }
+  .home{
+    display: block;
+    border-radius: 2vw;
+    background: transparent;
+    border: 0.1vw solid transparent;
+    height: 1.8vw;
+    color: #050a30;
+    text-align: center;
+    width: 5vw;
+    margin-left: -6vw;
+    transition: 0.6s ease;
+  }
+  .home:hover{
+    background: transparent;
+    color: black;
+    border: 0.1vw solid #5f5f5f;
+  }
+  .insta{
+    display: block;
+    border-radius: 2vw;
+    background: transparent;
+    border: 0.1vw solid transparent;
+    height: 1.8vw;
+    color: #050a30;
+    text-align: center;
+    width: 7vw;
+    margin-left: -7.54vw;
+    transition: 0.6s ease;
+  }
+  .insta p{
+  margin-top: 0vw;
+  }
+  .insta img{
+  display: none;
+  }
+  .Facebook img{
+  display: none;
+  }
+  .Tiktok img{
+  display: none;
+  }
+  .insta:hover{
+  background: transparent;
+  color: black;
+  border: 0.1vw solid #5f5f5f;
+  }
+  .nav-list .oatmeals{
+  display: none;
+  }
+  .nav-list .pancakes{
+  display: none;
+  }
+  .nav-list .savory{
+  display: none;
+  }
+  .nav-list .smoothies{
+  display: none;
+  }
+  #bouton{
+    display: block;
+    border-radius: 2vw;
+    background: #8B73FF;
+    border: 0.1vw solid transparent;
+    height: 1.8vw;
+    font-family: 'ewl', sans-serif;
+    font-size: 1.2vw;
+    color: #ffffff;
+    text-align: center;
+    width: 8vw;
+    transition: 0.6s ease;
+    cursor: pointer;
+  }
+  #brownies{
+    margin-top: 10vw;
+    margin-left: 48vw;
+    font-size: 1.3vw;
+    z-index: 10;
+  }
+  #fcake{
+    margin-top: 40vw;
+    margin-left: 48vw;
+    font-size: 1.3vw;
+    z-index: 10;
+  }
+  #qbreads{
+    margin-top: 40vw;
+    margin-left: 47dvw;
+    font-size: 1.3vw;
+    z-index: 10;
+  }
+  #bouton:hover{
+    background: white;
+    color: #8B73FF;
+    border: 0.1vw solid #8B73FF;
+  }
+  #resultat{
+    margin-top: 20vw;
+  }
+  .breakfast{
+    display: block;
+    position: absolute;
+    border: none;
+    left: 0;
+    z-index: 10;
+    top: 0;
+    margin-top: 5vw;
+    width: 100vw;
+    height: 20vw;
+    background-size: cover;
+    text-decoration: none;
+    background-position: center;
+    transition: 0.4s ease;
+    overflow-y: hidden;
+    filter: grayscale(100%);
+    box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+  -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+  -moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+  animation: right 2s ease;
+  }
+  .breakfast a{
+    top: 0;
+  }
+  .breakfast img{
+    width: 58vw;
+    transition: 0.4s ease;
+    filter: blur(3px);
+  }
+  .breakfast:hover img{
+    transform: scale(1.03);
+    filter: blur(0px);
+  }
+  .breakfast:hover{
+    filter: grayscale(0%);
+  }
+  .overlay{
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 12vw;
+    margin-left: 60vw;
+    width: 10vw;
+    color: #050a30;
+    font-family: 'qura', serif;
+    height: 2vw;
+    opacity: 1;
+    font-size: 4.2vw;
+    text-align: center;
+    transition: 0.5s ease;
+    text-transform: uppercase;
+    filter: grayscale(0%);
+    z-index: 1;
+    animation: left 1.4s ease;
+  }
+  .lunch{
+    display: block;
+    position: absolute;
+    border: none;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    margin-top: 25vw;
+    width: 100vw;
+    height: 20vw;
+    background-size: cover;
+    text-decoration: none;
+    background-position: center;
+    transition: 0.4s ease;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    filter: grayscale(100%);
+    box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+  -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+  -moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+  animation: right 2s ease;
+  }
+  .lunch a{
+    top: 0;
+  }
+  .lunch img{
+    width: 58vw;
+    transition: 0.4s ease;
+    margin-left: 42vw;
+    filter: blur(3px);
+  }
+  .lunch:hover img{
+    transform: scale(1.03);
+    filter: blur(0px);
+  }
+  .lunch:hover{
+    filter: grayscale(0%);
+  }
+  .overlay2{
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 32.5vw;
+    margin-left: 20vw;
+    width: 10vw;
+    color: #050a30;
+    font-family: 'qura', serif;
+    height: 2vw;
+    opacity: 1;
+    font-size: 4vw;
+    text-align: center;
+    transition: 0.5s ease;
+    text-transform: uppercase;
+    filter: grayscale(0%);
+    z-index: 9;
+    animation: overlay2 1.4s ease;
+  }
+  .dinner{
+    display: block;
+    position: absolute;
+    border: none;
+    left: 0;
+    z-index: 8;
+    top: 0;
+    margin-top: 45vw;
+    width: 100vw;
+    height: 20vw;
+    background-size: cover;
+    text-decoration: none;
+    background-position: center;
+    transition: 0.4s ease;
+    overflow-y: hidden;
+    filter: grayscale(100%);
+    box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.60);
+  -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.60);
+  -moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.60);
+  animation: right 2s ease;
+  }
+  .dinner a{
+    top: 0;
+  }
+  .dinner img{
+    transition: 0.4s ease;
+    width: 58vw;
+    filter: blur(3px);
+  }
+  .dinner:hover img{
+    transform: scale(1.03);
+    filter: blur(0px);
+  }
+  .dinner:hover{
+    filter: grayscale(0%);
+  }
+  .overlay3{
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 54vw;
+    margin-left: 66vw;
+    width: 10vw;
+    color: #050a30;
+    font-family: 'qura', serif;
+    height: 2vw;
+    font-size: 4vw;
+    text-align: center;
+    transition: 0.5s ease;
+    text-transform: uppercase;
+    filter: grayscale(0%);
+    z-index: 1;
+    animation: left 1.4s ease;
+  }
+  .dessert{
+    display: block;
+    position: absolute;
+    border: none;
+    left: 0;
+    top: 0;
+    z-index: 6;
+    margin-top: 65vw;
+    width: 100vw;
+    height: 20vw;
+    background-size: cover;
+    text-decoration: none;
+    background-position: center;
+    transition: 0.4s ease;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    filter: grayscale(100%);
+    box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+  -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+  -moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+  animation: right 2s ease;
+  }
+  .dessert a{
+    top: 0;
+  }
+  .dessert img{
+    width: 70vw;
+    transition: 0.4s ease;
+    margin-left: 30vw;
+    margin-top: -3vw;
+    filter: blur(3px);
+  }
+  .dessert:hover img{
+    transform: scale(1.03);
+    filter: blur(0px)
+  }
+  .dessert:hover{
+    filter: grayscale(0%);
+  }
+  .overlay4{
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 72vw;
+    margin-left: 16vw;
+    width: 10vw;
+    color: #050a30;
+    font-family: 'qura', serif;
+    height: 2vw;
+    opacity: 1;
+    font-size: 4vw;
+    text-align: center;
+    transition: 0.5s ease;
+    text-transform: uppercase;
+    filter: grayscale(0%);
+    z-index: 9;
+    animation: overlay2 1.4s ease;
+  }
+  .rotm{
+  position: absolute;
+  width: 100vw;
+  height: 42.9vw;
+  top: 0;
+  left: 0;
+  margin-top: 90vw;
+  color: #050a30;
+  font-family: 'qura', serif;
+  font-size: 1.4vw;
+  box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+  -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+  -moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
+  z-index: 8;
+  }
+  .rotm:hover .recipee img{
+  transform: scale(1.01);
+  filter: grayscale(0%);
+  box-shadow: 10px 10px 20px 0px rgba(102,86,182,0.75);
+  -webkit-box-shadow: 10px 10px 20px 0px rgba(102,86,182,0.75);
+  -moz-box-shadow: 10px 10px 20px 0px rgba(102,86,182,0.75);
+  }
+  .rotm h1{
+  margin-left: 35vw;
+  height: 3.3w;
+  border-radius: 2vw;
+  width: 30vw;
+  text-align: center;
+  color: #050a30;
+  transition: 0.4s ease;
+  background: transparent;
+  border: 0.1vw solid #5f5f5f;
+  }
+  .recipee{
+  display: block;
+  position: absolute;
+  font-family: 'ewl', sans-serif;
+  }
+  .recipee img{
+  display: block;
+  position: absolute;
+  margin-top: 4vw;
+  margin-left: 8vw;
+  filter: grayscale(90%);
+  width: 23vw;
+  border-radius: 1vw;
+  transition: 0.4s ease;
+  }
+  .recipee h3{
+  width: 30vw;
+  display: block;
+  position: absolute;
+  color: #050a30;
+  font-family: 'qura',serif;
+  font-size: 1.4vw;
+  text-transform: uppercase;
+  margin-top: 0vw;
+  margin-left: 36vw;
+  font-weight: bold;
+  }
+  .recipee p{
+  font-size: 1vw;
+  margin-top: 4vw;
+  margin-left: 36vw
+  }
+  footer{
+  background: #e4e4e4;
+  display: block;
+  position: absolute;
+  margin-top: 70vw;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 10vw;
+  border: none;
+  }
+  footer img{
+  display: block;
+  position: absolute;
+  left: 10vw;
+  top: 2vw;
+  width: 17vw;
+  }
+  footer a{
+  text-decoration: none;
+  color: black;
+  font-family: 'ewl', sans-serif;
+  font-size: 1.2vw;
+  }
+  footer .email input{
+  width: 8vw;
+  height: 1.5vw;
+  }
+  footer .sub input{
+  border: 1px solid black;
+  background: #050a30;
+  color: white;
+  width: 5vw;
+  height: 1.8vw;
+  border-radius: 0.2vw;
+  margin-left: -1vw;
+  cursor: pointer;
+  }
+  .instagram{
+  display: block;
+  position: absolute;
+  width: 7vw;
+  top: 0.8vw;
+  left: 52vw;
+  transition: 0.45s ease;
+  color: #050a30;
+  }
+  .instagram img{
+  display: none;
+  position: absolute;
+  width: 3vw;
+  top: -1.6vw;
+  left: -4vw;
+  filter: invert(1);
+  transition: 0.4s ease
+  }
+  .instagram:hover{
+  color: black;
+  }
+  .Facebook{
+  display: block;
+  position: absolute;
+  width: 7vw;
+  top: 2.8vw;
+  left: 52vw;
+  transition: 0.45s ease;
+  color: #050a30;
+  }
+  .Facebook img{
+  display: none;
+  position: absolute;
+  width: 3vw;
+  top: -1.6vw;
+  left: -4vw;
+  filter: invert(1);
+  transition: 0.4s ease
+  }
+  .Facebook:hover{
+  color: black;
+  }
+  
+  .Tiktok{
+  display: block;
+  position: absolute;
+  width: 7vw;
+  top: 4.8vw;
+  left: 52vw;
+  transition: 0.45s ease;
+  color: #050a30;
+  }
+  .Tiktok img{
+  display: none;
+  position: absolute;
+  width: 3vw;
+  top: -1.6vw;
+  left: -4vw;
+  filter: invert(1);
+  transition: 0.4s ease
+  }
+  .Tiktok:hover{
+  color: black;
+  }
+  
+  .Newsletter{
+  font-family: 'ewl', sans-serif;
+  color: #080f42;
+  display: block;
+  position: absolute;
+  font-size: 1.2vw;
+  top: 2vw;
+  left: 28vw;
+  }
+  
+  .Month{
+  font-family: 'ewl', sans-serif;
+  color: #080f42;
+  display: block;
+  position: absolute;
+  font-size: 1vw;
+  top: 3.5vw;
+  left: 28vw;
+  font-style: italic;
+  font-weight: normal;
+  }
+  
+  .email{
+  font-family: 'ewl', sans-serif;
+  color: #080f42;
+  display: block;
+  position: absolute;
+  font-size: 0.8vw;
+  top: 5.5vw;
+  left: 28vw;
+  }
+  .sub{
+  font-family: 'ewl', sans-serif;
+  color: #080f42;
+  display: block;
+  position: absolute;
+  font-size: 0.8vw;
+  top: 5.5vw;
+  left: 37.5vw;
+  }
+  .about{
+  font-family: 'ewl', sans-serif;
+  color: #080f42;
+  display: block;
+  position: absolute;
+  font-size: 1vw;
+  top: 2vw;
+  left: 70vw;
+  cursor: pointer;
+  }
+  .contact{
+  font-family: 'ewl', sans-serif;
+  color: #080f42;
+  display: block;
+  position: absolute;
+  font-size: 1vw;
+  top: 3.5vw;
+  left: 70vw;
+  }
+  .copyright{
+  font-family: 'ewl', sans-serif;
+  color: #080f42;
+  display: block;
+  position: absolute;
+  font-size: 0.8vw;
+  top: 6.2vw;
+  left: 15.1vw;
+  }
+  
+  .instalogo img{
+  width: 1.2vw;
+  display: block;
+  position: absolute;
+  top: 2.2vw;
+  left: 50.3vw;
+  }
+  
+  .fblogo img{
+  width: 1.2vw;
+  display: block;
+  position: absolute;
+  top: 4.2vw;
+  left: 50.3vw;
+  }
+  .tiktoklogo img{
+  width: 1.2vw;
+  display: block;
+  position: absolute;
+  top: 6.2vw;
+  left: 50.3vw;
+  }
+  .author{
+  display: block;
+  position: absolute;
+  font-family: 'ewl', sans-serif;
+  color: black;
+  height: 1vw;
+  width: 6.2vw;
+  font-size: 0.69vw;
+  top: 0;
+  left: 0;
+  margin-top: 8vw;
+  margin-left: 92vw;
+  }
+  .author p{
+  display: block;
+  position: absolute;
+  top: -0.65vw;
+  }
+  
+.links{
+    width: 100vw;
+    height: 10vw;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    top: 7vw;
+    left: 2vw;
+    }
+    #oatmeal{
+    margin-top: 10vw;
+    }
+    #pan{
+    margin-left: 45.5vw;
+    }
+    #smooth{
+    margin-left: 45.5vw;
+    width: 50vw;
+    }
+    .all{
+    background: #d2dcee;
+    border-radius: 1vw;
+    color: #050a30;
+    }
+    .oatmeals{
+    color: #050a30;
+    border-radius: 1vw;
+    }
+    .pancakes{
+    color: #050a30;
+    border-radius: 1vw;
+    }
+    .savory{
+    color: #050a30;
+    border-radius: 1vw;
+    }
+    .smoothies{
+    color: #050a30;
+    border-radius: 1vw;
+    }
+    .links a{
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2vw;
+    text-decoration: none;
+    font-family: 'time', serif;
+    font-weight: bold;
+    border: 1px solid transparent;
+    width: 12vw;
+    transition: 0.5s ease;
+    text-decoration: none;
+    color: #050a30;
+    }
+    .links a:hover {
+    background: #f0f0f0;
+    color: black;
+    border: 0.1vw solid #5f5f5f;
+    border-radius: 5vw;
+    box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
+    -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
+    -moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
+    font-size: 1.22vw;
+    }
+    .linkss{
+    width: 100vw;
+    height: 10vw;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    top: 2vw;
+    left: 0vw;
+    }
+    .linkss a{
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2vw;
+    text-decoration: none;
+    font-family: 'time', serif;
+    font-weight: bold;
+    border: 1px solid transparent;
+    width: 7vw;
+    transition: 0.5s ease;
+    background: transparent;
+    }
+    .linkss a:hover{
+    background: transparent;
+    color: black;
+    border: 0.1vw solid #5f5f5f;
+    box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
+    -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
+    -moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
+    font-size: 1.22vw;
+    }
 .contact-form-container {
     max-width: 800px;
     margin: 20px auto;
+    margin-top: 17dvw;
     padding: 20px;
-    background-color: #f9f9f9;
+    background: #ffffff96;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #050a30;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.514);
+    font-family: 'ewl';
+    z-index: 20;
 }
 
 .contact-form {
@@ -28,12 +852,41 @@
 }
 
 .contact-form button {
-    background-color: #4CAF50;
+    background-color: #080f42;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'ewl';
+}
+.test{
+    display: block;
+    position: absolute;
+    background: #050a45;
+    width: 46.6%;
+    height: 62dvw;
+    margin-top: 5dvw;
+    top: 0;
+    left: 0;
+    -webkit-transform: perspective(300px) rotateX(-30deg);
+    -o-transform: perspective(300px) rotateX(-30deg);
+    -moz-transform: perspective(300px) rotateX(-30deg);
+    -webkit-transform-origin: 0% 50%;
+    -moz-transform-origin: 0% 50%;
+    -o-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    z-index: -1;
+}
+.sup{
+    display: block;
+    position: absolute;
+    margin-top: 49.4vw;
+    width: 100%;
+    height: 22dvw;
+    top: 0;
+    left: 0;
+    background: #050a25;
 }
 
 /* Styles pour rendre le formulaire responsive */

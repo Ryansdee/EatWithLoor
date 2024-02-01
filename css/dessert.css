@@ -1868,11 +1868,11 @@ background-size: cover;
     align-self: center;
   }
   .bk2 h3{
-    margin-top: 44vw;
+    margin-top: 43vw;
     font-size: 5vw;
     left: 0.7vw;
     width: 70vw;
-    padding-top: 4.4vw;
+    padding-top: 2.5vw;
     text-align: center;
     background: white;
   }
@@ -1924,7 +1924,7 @@ background-size: cover;
     left: 0.7vw;
     width: 70vw;
     height: 14vw;
-    padding-top: 2vw;
+    padding-top: 5vw;
     text-align: center;
     background: white;
   }
@@ -2055,7 +2055,7 @@ background-size: cover;
     left: 0vw;
     width: 70vw;
     height: 14vw;
-    padding-top: 2vw;
+    padding-top: 5vw;
     text-align: center;
     background: white;
   }
@@ -2080,7 +2080,7 @@ background-size: cover;
     left: 0vw;
     width: 70vw;
     height: 14vw;
-    padding-top: 2vw;
+    padding-top: 5vw;
     text-align: center;
     background: white;
   }
