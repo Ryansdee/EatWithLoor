@@ -1710,15 +1710,25 @@ background-size: cover;
   }
   .nav-list .oatmeals{
     display: block;
+    margin-left: -26dvw;
   }
   .nav-list .pancakes{
     display: block;
+    margin-top: -8dvw;
+    margin-left: -26dvw;
   }
   .nav-list .savory{
     display: block;
+    margin-top: -8dvw;
+    margin-left: -26dvw;
   }
   .nav-list .smoothies{
     display: block;
+    margin-top: -8dvw;
+    margin-left: -26dvw;
+  }
+  .nav-list .insta{
+    margin-top: -9dvw;
   }
   .nav-btn {
       margin-left: -3vw;
