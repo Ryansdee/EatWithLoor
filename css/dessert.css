@@ -184,6 +184,24 @@ display: none;
   transition: 0.6s ease;
   cursor: pointer;
 }
+#brownies{
+  margin-top: 10vw;
+  margin-left: 48vw;
+  font-size: 1.3vw;
+  z-index: 10;
+}
+#fcake{
+  margin-top: 40vw;
+  margin-left: 48vw;
+  font-size: 1.3vw;
+  z-index: 10;
+}
+#qbreads{
+  margin-top: 40vw;
+  margin-left: 47dvw;
+  font-size: 1.3vw;
+  z-index: 10;
+}
 #bouton:hover{
   background: white;
   color: #8B73FF;
@@ -493,7 +511,7 @@ footer{
 background: #e4e4e4;
 display: block;
 position: absolute;
-margin-top: 160vw;
+margin-top: 140vw;
 left: 0;
 top: 0;
 width: 100vw;
@@ -640,6 +658,7 @@ position: absolute;
 font-size: 1vw;
 top: 2vw;
 left: 70vw;
+cursor: pointer;
 }
 .contact{
 font-family: 'ewl', sans-serif;
@@ -765,7 +784,7 @@ border-radius: 1.5vw;
 }
 .recipees{
 width: 104vw;
-height: 140vw;
+height: 120dvw;
 display: block;
 position: absolute;
 margin-top: 24.6vw;
@@ -1611,6 +1630,7 @@ background-size: cover;
     margin-top: 78vw;
     font-size: 5vw;
     margin-left: -40vw;
+    cursor: pointer;
   }
   footer .contact{
     margin-top: 76.6vw;
