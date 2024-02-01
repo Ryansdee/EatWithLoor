@@ -713,6 +713,12 @@ box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
 -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
 -moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
 }
+.intro .nshow{
+  margin-top: 1dvw;
+}
+.intro .show{
+  margin-top: 5dvw;
+}
 .intro .p1{
 display: block;
 position: absolute;
@@ -1154,7 +1160,7 @@ font-size: 1.22vw;
   transform: scale(1.01);
   cursor: pointer;
 }
-.smth1{
+.bk8{
   width: 18vw;
   height: 25vw;
   overflow: hidden;
@@ -1162,84 +1168,6 @@ font-size: 1.22vw;
   position: absolute;
   top: 73vw;
   left: 43vw;
-  border-radius: 1vw;
-  box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
-  -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
-  -moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
-  transition: 0.2s ease;
-  background: #ffffffa8;
-}
-.smth1 img {
-  display: block;
-  position: absolute;
-  width: 100.4%;
-  height: 73%;
-  top: 0;
-  left: 0vw;
-}
-.smth1 h3{
-  display: block;
-  position: absolute;
-  font-family: 'time', serif;
-  text-transform: uppercase;
-  top: 19.5vw;
-  left: 0.7vw;
-  font-size: 1vw;
-  text-align: center;
-  text-decoration: none;
-  color: #050a30;
-}
-.smth1:hover{
-  transform: scale(1.01);
-  cursor: pointer;
-}
-.smth2{
-  width: 18vw;
-  height: 25vw;
-  overflow: hidden;
-  display: block;
-  position: absolute;
-  top: 73vw;
-  left: 64vw;
-  border-radius: 1vw;
-  box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
-  -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
-  -moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
-  transition: 0.2s ease;
-  background: #ffffffa8;
-}
-.smth2 img {
-  display: block;
-  position: absolute;
-  width: 100.4%;
-  height: 73%;
-  top: 0;
-  left: 0vw;
-}
-.smth2 h3{
-  display: block;
-  position: absolute;
-  font-family: 'time', serif;
-  text-transform: uppercase;
-  top: 19.5vw;
-  left: 0.7vw;
-  font-size: 1vw;
-  text-align: center;
-  text-decoration: none;
-  color: #050a30;
-}
-.smth2:hover{
-  transform: scale(1.01);
-  cursor: pointer;
-}
-.bk8{
-  width: 18vw;
-  height: 25vw;
-  overflow: hidden;
-  display: block;
-  position: absolute;
-  top: 104vw;
-  left: 22vw;
   border-radius: 1vw;
   box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
   -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
@@ -1275,8 +1203,8 @@ font-size: 1.22vw;
   height: 25vw;
   overflow: hidden;
   position: absolute;
-  top: 104vw;
-  left: 43vw;
+  top: 73vw;
+  left: 64vw;
   border-radius: 1vw;
   box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
   -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
@@ -1602,7 +1530,7 @@ text-decoration: none;
 background-image:
 linear-gradient(rgba(245, 246, 252, 0.840), rgba(245, 246, 252, 0.840)),
 url('/images/background-2.webp');
-background-size: contain;
+background-size: cover;
     }
   footer{
     width: 106vw;
@@ -1844,6 +1772,7 @@ background-size: contain;
   }
   .intro .show{
     display: block;
+    margin-top: 95dvw;
   }
   .recipees{
     margin-top: 260vw;

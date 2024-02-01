@@ -65,27 +65,31 @@
         <p id="ingredient"><strong>Ingredients</strong></p>
         <div class="ingredients">
           <strong>
-        <P>&#128313;200 grams of chocolate of choice (I used dark)</P>
-        <P>&#128313;4 eggs</P>
-        <P>&#128313;50 grams of granulated sugar</P>
-        <P>&#128313;50 grams of brown sugar</P>
-        <P>&#128313;2 tsp vanilla sugar</P>
-        <P>&#128313;80 grams of all purpose flour</P>
-        <P>&#128313;150 grams of butter</P>
+            <ul>        
+              <li><P>200 grams of chocolate of choice (I used dark)</P></li>
+                <li><P>4 eggs</P></li>
+                  <li><P>50 grams of granulated sugar</P></li>
+                    <li><P>50 grams of brown sugar</P></li>
+                      <li><P>2 tsp vanilla sugar</P></li>
+                        <li><P>80 grams of all purpose flour</P></li>
+                          <li><P>150 grams of butter</P></li>
+      </ul>
       </strong>
       </div>
       <div class="line2"></div>
       <p id="instruction"><strong>Instructions</strong></p>
       <div class="instructions">
         <strong>
-        <p>&#128313; Preheat your oven to 180°C. Grease and flour a brownie cake mold.        </p>
-        <p>&#128313; Break the chocolate into pieces and melt it using your preferred &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;method: microwave or using a double boiler (au bain marie). Mix in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the butter until smooth.</p>
-        <p>&#128313; In a large bowl, whisk together the eggs, granulated sugar, brown &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sugar, and vanilla extract until well combined. Gradually add the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;flour into the egg mixture, stirring until fully incorporated.</p>
-        <p>&#128313; Pour in the melted chocolate mixture and mix thoroughly until you &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;achieve a smooth, homogeneous batter.</p>
-        <p>&#128313; Pour the batter into the prepared brownie cake mold.</p>
-        <p>&#128313; Bake for 20-25 minutes in the preheated oven, or until a toothpick &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inserted into the center comes out clean.</p>
-        <p>&#128313; Allow the brownie cake to cool before slicing. Serve as is or with a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scoop of ice cream. You can also dust the top with powdered sugar &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for an extra touch of sweetness.</p>
-    </strong>
+          <ol type="1">
+          <li><p>Preheat your oven to 180°C. Grease and flour a brownie cake mold.</p></li>
+            <li><p>Break the chocolate into pieces and melt it using your preferred method: microwave or using a double boiler (au bain marie). Mix in the butter until smooth.</p></li>
+              <li><p>In a large bowl, whisk together the eggs, granulated sugar, brown sugar, and vanilla extract until well combined. Gradually add the flour into the egg mixture, stirring until fully incorporated.</p></li>
+                <li><p>Pour in the melted chocolate mixture and mix thoroughly until you achieve a smooth, homogeneous batter.</p></li>
+                  <li><p>Pour the batter into the prepared brownie cake mold.</p></li>
+                    <li><p>Bake for 20-25 minutes in the preheated oven, or until a toothpick inserted into the center comes out clean.</p></li>
+                      <li><p>Allow the brownie cake to cool before slicing. Serve as is or with a scoop of ice cream. You can also dust the top with powdered sugar for an extra touch of sweetness.</p></li>
+                    </ol>
+                    </strong>
       </div>
       <div class="line3"></div>
       <button onclick="dev()" id="nutrition"><strong>Nutrition</strong></button>
@@ -96,22 +100,45 @@
       </strong>
       </div>
     </div>
-    <footer>
-        <img src="/images/LOOR.webp" alt="">
-        <a href="https://www.instagram.com/eatwithloor/" class="instagram">Instagram<img src="imags/insta.png" alt=""></a>
-          <div class="copyright">&copy; EatWithLoor 2023</div>
-          <div class="author"><p>created by Ryansdee</p></div>
-    </footer>
   </div>
-    </body>
-    <script>
-      function dev() {
-    var x = document.getElementById("texte");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-        </script>
-    </html> 
+    <div class="line5"></div>
+    <button id="allike"><strong>You might also like...</strong></button>
+    <div class="aslike" id="like">
+      <a href="/dessert/Coconut-Chocolate-Brownies.html" class="bk2">
+        <img src="/images/Brownie-2.webp" alt="">
+        <h3>Coconut Chocolate Brownies</h3>
+      </a>
+      <a href="/dessert/Zucchini-Chocolate-Brownies.html" class="bk5">
+        <img src="/images/Brownie-3.webp" alt="">
+        <h3>Zucchini Chocolate Brownies</h3>
+      </a>
+      <a href="/dessert/Chocolate-Chip-Bread.html" class="smth2">
+        <img src="/images/Bread-3.webp" alt="">
+        <h3>Chocolate Chip Bread</h3>
+      </a>
+      <a href="/breakfast/bk3.html" class="bk3">
+        <img src="/images/Oatmeal-3.webp" alt="">
+        <h3>Chocolate Banana Baked Oats</h3>
+      </a>
+    </div>
+    <footer>
+      <img src="/images/LOOR.webp" alt="">
+      <a href="https://www.instagram.com/eatwithloor/" target="_blank" class="instagram"><p>Instagram</p><img src="images/insta-logo.webp" alt=""></a>
+      <a href="https://www.facebook.com/profile.php?id=61554782439440" target="_blank" class="Facebook"><p>Facebook</p><img src="images/fb-logo.webp" alt=""></a>
+      <a href="https://www.tiktok.com/@eatwithloor" target="_blank" class="Tiktok"><p>Tik Tok</p><img src="images/tiktok-logo.webp" alt=""></a>
+      <div class="Newsletter">Ready to cook? </div>
+      <div class="Month">Sign up for our monthly newsletter!</div>
+       <form action="subscribe.php" method="post">
+          <div class="email"><input type="email" placeholder="Email Address" name="mail" required></div>
+          <div class="sub"> <input type="submit" value="Subscribe"></div>
+        </form>
+        <div class="about" onclick="window.location.href='/about.html';"> About us </div>
+        <div class="contact"> Contact </div>
+        <div class="copyright">&copy; EatWithLoor 2023</div>
+        <div class="author"><p>created by Ryansdee</p></div>
+        <div class="instalogo"><img src="/images/insta-logo.webp" alt=""></div>
+        <div class="fblogo"><img src="/images/fb-logo.webp" alt=""></div>
+        <div class="tiktoklogo"><img src="/images/tiktok-logo.webp" alt=""></div>
+  </footer>
+</body>
+</html>
