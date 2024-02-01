@@ -29,6 +29,12 @@ html{
   overflow-x: hidden;
   scroll-behavior: smooth
 }
+body{
+  background-image:
+  linear-gradient(rgba(245, 246, 252, 0.840), rgba(245, 246, 252, 0.840)),
+  url('/images/background-2.webp');
+  background-size: cover;
+}
 .linkss{
 width: 100vw;
 height: 10vw;
@@ -73,7 +79,6 @@ font-size: 1.22vw;
   box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
   -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
   -moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.43);
-  z-index: 11;
 }
 .nav-title img{
   display: block;
@@ -731,10 +736,15 @@ font-family: 'qura',serif;
 width: 100vw;
 top: 5vw;
 left: 0;
-z-index: 1;
+z-index: 11;
 box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
 -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
 -moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.20);
+background: rgb(255,255,255);
+background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,253,253,1) 89%, rgba(182,182,182,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,253,253,1) 89%, rgba(182,182,182,1) 100%);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,253,253,1) 89%, rgba(182,182,182,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b6b6b6",GradientType=1);
 }
 .intro .p1{
 display: block;
@@ -796,10 +806,8 @@ display: block;
 position: absolute;
 margin-top: 24.6vw;
 left: 0;
-background-image:
-linear-gradient(rgba(245, 246, 252, 0.840), rgba(245, 246, 252, 0.840)),
-url('/images/background-2.webp');
-background-size: contain;
+background: transparent;
+z-index: 11;
 }
 .recipees h2{
 font-family: 'butler', serif;
@@ -826,6 +834,9 @@ position: absolute;
 text-align: center;
 top: 7vw;
 left: 2vw;
+}
+.nav .recipees .links{
+  display: block;
 }
 #oatmeal{
 margin-top: 10vw;
