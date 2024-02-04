@@ -573,7 +573,7 @@ margin-top: 1vw;
 }
 .page{
 width: 100vw;
-height: 119vw;
+height: 118vw;
 background-image: linear-gradient(rgba(245, 246, 252, 0.890), rgba(245, 246, 252, 0.890)), url('/images/background-2.webp');
 background-size: cover;
 }
@@ -651,7 +651,7 @@ background: #03061f;
 #allike{
 display: inline-block;
 position: absolute;
-margin-top: -40.6vw;
+margin-top: -40vw;
 margin-left: 42.5vw;
 font-family: 'time';
 font-size: 1.4vw;
@@ -725,7 +725,7 @@ position: absolute;
 font-family: 'time', serif;
 text-transform: uppercase;
 top: 14vw;
-left: 0.6vw;
+left: 2vw;
 text-decoration: none;
 color: #050a30;
 font-size: 0.9vw;

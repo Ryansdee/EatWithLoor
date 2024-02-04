@@ -361,6 +361,7 @@ footer .Tiktok p{
   top: 2vw;
   left: 70vw;
   font-weight: normal;
+  cursor: pointer;
 }
 .contact{
   font-family: 'ewl', sans-serif;
@@ -371,6 +372,7 @@ footer .Tiktok p{
   top: 3.5vw;
   left: 70vw;
   font-weight: normal;
+  cursor: pointer;
 }
 .copyright{
   font-family: 'ewl', sans-serif;
@@ -938,6 +940,7 @@ position: absolute;
 width: 50vw;
 margin-top: 69.5vw;
 margin-left: -2.5vw;
+font-size: 1vw;
 font-family: 'time';
 }
 .nutrition h6{

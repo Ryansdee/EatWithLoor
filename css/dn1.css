@@ -172,7 +172,7 @@ footer{
 background: #e4e4e4;
 display: block;
 position: absolute;
-margin-top: 114vw;
+margin-top: 102vw;
 left: 0;
 top: 0;
 width: 100vw;
@@ -573,7 +573,7 @@ margin-top: 1vw;
 }
 .page{
 width: 100vw;
-height: 125vw;
+height: 120vw;
 background-image: linear-gradient(rgba(245, 246, 252, 0.890), rgba(245, 246, 252, 0.890)), url('/images/background-2.webp');
 background-size: cover;
 }
@@ -642,7 +642,7 @@ display: block;
 position: absolute;
 top: 0;
 left: 0;
-margin-top: 83.3vw;
+margin-top: 76.5vw;
 margin-left: 20vw;
 width: 65vw;
 height: 0.01vw;
@@ -651,7 +651,7 @@ background: #03061f;
 #allike{
 display: inline-block;
 position: absolute;
-margin-top: -33vw;
+margin-top: -35vw;
 margin-left: 42.5vw;
 font-family: 'time';
 font-size: 1.4vw;
@@ -670,7 +670,7 @@ display: inline-block;
 position: absolute;
 font-family: 'time';
 text-align: center;
-margin-top: -92vw;
+margin-top: -95vw;
 margin-left: 33vw;
 font-weight: bold;
 }

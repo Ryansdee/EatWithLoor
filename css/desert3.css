@@ -172,7 +172,7 @@ footer{
 background: #e4e4e4;
 display: block;
 position: absolute;
-margin-top: 114vw;
+margin-top: 100vw;
 left: 0;
 top: 0;
 width: 100vw;
@@ -573,7 +573,7 @@ margin-top: 1vw;
 }
 .page{
 width: 100vw;
-height: 125vw;
+height: 110vw;
 background-image: linear-gradient(rgba(245, 246, 252, 0.890), rgba(245, 246, 252, 0.890)), url('/images/background-2.webp');
 background-size: cover;
 }
@@ -616,7 +616,7 @@ box-shadow: 1px 2px #666;
 display: inline-block;
 position: absolute;
 font-family: 'time';
-margin-top: 15vw;
+margin-top: 12vw;
 margin-left: 29vw;
 font-size: 1vw;
 }
@@ -642,7 +642,7 @@ display: block;
 position: absolute;
 top: 0;
 left: 0;
-margin-top: 83.3vw;
+margin-top: 74.5vw;
 margin-left: 20vw;
 width: 65vw;
 height: 0.01vw;
@@ -651,7 +651,7 @@ background: #03061f;
 #allike{
 display: inline-block;
 position: absolute;
-margin-top: -33vw;
+margin-top: -27vw;
 margin-left: 42.5vw;
 font-family: 'time';
 font-size: 1.4vw;
@@ -670,7 +670,7 @@ display: inline-block;
 position: absolute;
 font-family: 'time';
 text-align: center;
-margin-top: -92vw;
+margin-top: -86vw;
 margin-left: 33vw;
 font-weight: bold;
 }
@@ -724,8 +724,8 @@ display: block;
 position: absolute;
 font-family: 'time', serif;
 text-transform: uppercase;
-top: 14vw;
-left: 0.35dvw;
+top: 13.5vw;
+left: 0dvw;
 text-decoration: none;
 color: #050a30;
 font-size: 0.9vw;
@@ -764,7 +764,7 @@ position: absolute;
 font-family: 'time', serif;
 text-transform: uppercase;
 top: 14dvw;
-left: 1.8dvw;
+left: 1.3dvw;
 text-decoration: none;
 color: #050a30;
 font-size: 0.9vw;
@@ -803,7 +803,7 @@ position: absolute;
 font-family: 'time', serif;
 text-transform: uppercase;
 top: 14dvw;
-left: 1dvw;
+left: 1.7dvw;
 text-decoration: none;
 color: #050a30;
 font-size: 0.9vw;
@@ -841,7 +841,7 @@ display: block;
 position: absolute;
 font-family: 'time', serif;
 text-transform: uppercase;
-top: 14dvw;
+top: 13.5dvw;
 left: 0.5dvw;
 text-decoration: none;
 color: #050a30;
@@ -1301,8 +1301,8 @@ footer{
   footer .Tiktok{
     display: none;
   }
-  footer .fblogo img{
-    display: block;
+  footer .fblogo{
+    display: none;
   }
   footer .tiktoklogo p{
     display: none;
@@ -1353,12 +1353,6 @@ footer{
   .Tiktok img{
     width: 12vw;
     margin-top: 3vw;
-  }
-  .fblogo img{
-    display: block;
-    width: 12dvw;
-    margin-top: 60vw;
-    margin-left: -3vw;
   }
   .copyright{
     margin-top: 81vw;
@@ -1600,7 +1594,7 @@ margin-top: 1vw;
 #instruction {
 display: block;
 position: absolute;
-margin-top: 250dvw;
+margin-top: 280dvw;
 margin-left: 13dvw;
 font-family: 'time';
 font-weight: bold;
@@ -1619,7 +1613,7 @@ color: white;
 display: inline-block;
 position: absolute;
 font-family: 'time';
-margin-top: 270dvw;
+margin-top: 300dvw;
 margin-left: 12dvw;
 width: 72vw;
 }
@@ -1633,7 +1627,7 @@ text-align: justify;
 #nutrition {
 display: block;
 position: absolute;
-margin-top: 543dvw;
+margin-top: 530dvw;
 margin-left: 12dvw;
 font-family: 'time';
 font-weight: bold;
@@ -1649,7 +1643,7 @@ padding-top: 1dvw;
 color: black;
 }
 .nutrition{
-  margin-top: 148dvw;
+  margin-top: 140dvw;
   margin-left: 12dvw;
 }
 .nutrition p {

@@ -511,7 +511,7 @@ footer{
 background: #e4e4e4;
 display: block;
 position: absolute;
-margin-top: 140vw;
+margin-top: 160vw;
 left: 0;
 top: 0;
 width: 100vw;
@@ -784,7 +784,7 @@ border-radius: 1.5vw;
 }
 .recipees{
 width: 104vw;
-height: 120dvw;
+height: 140dvw;
 display: block;
 position: absolute;
 margin-top: 24.6vw;
@@ -973,7 +973,7 @@ font-size: 1.22vw;
   font-family: 'time', serif;
   text-transform: uppercase;
   top: 20vw;
-  left: 3vw;
+  left: 1vw;
   font-size: 1vw;
   text-decoration: none;
   color: #050a30;
@@ -1011,7 +1011,7 @@ font-size: 1.22vw;
   font-family: 'time', serif;
   text-transform: uppercase;
   top: 19.8vw;
-  left: 2vw;
+  left: 1vw;
   width: 15vw;
   font-size: 1vw;
   text-align: center;
@@ -1051,7 +1051,7 @@ font-size: 1.22vw;
   font-family: 'time', serif;
   text-transform: uppercase;
   top: 20vw;
-  left: 1.6vw;
+  left: 4vw;
   font-size: 1vw;
   text-decoration: none;
   color: #050a30;
@@ -1244,8 +1244,8 @@ font-size: 1.22vw;
   position: absolute;
   font-family: 'time', serif;
   text-transform: uppercase;
-  top: 19.5vw;
-  left: 0vw;
+  top: 20vw;
+  left: 3vw;
   font-size: 1vw;
   text-align: center;
   text-decoration: none;
@@ -1255,13 +1255,14 @@ font-size: 1.22vw;
   transform: scale(1.01);
   cursor: pointer;
 }
-.bk10 {
+.bk10{
   width: 18vw;
   height: 25vw;
   overflow: hidden;
+  display: block;
   position: absolute;
-  top: 104vw;
-  left: 64vw;
+  top: 103vw;
+  left: 22vw;
   border-radius: 1vw;
   box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
   -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
@@ -1273,7 +1274,7 @@ font-size: 1.22vw;
   display: block;
   position: absolute;
   width: 100.4%;
-  height: 75%;
+  height: 73%;
   top: 0;
   left: 0vw;
 }
@@ -1283,12 +1284,51 @@ font-size: 1.22vw;
   font-family: 'time', serif;
   text-transform: uppercase;
   top: 20vw;
-  left: 4vw;
   font-size: 1vw;
+  left: 4vw;
   text-decoration: none;
   color: #050a30;
 }
 .bk10:hover{
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.bk11{
+  width: 18vw;
+  height: 25vw;
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  top: 103vw;
+  left: 43vw;
+  border-radius: 1vw;
+  box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
+  -webkit-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
+  -moz-box-shadow: 1px 10px 20px -3px rgba(0,0,0,0.30);
+  transition: 0.2s ease;
+  background: #ffffffa8;
+}
+.bk11 img {
+  display: block;
+  position: absolute;
+  width: 100.4%;
+  height: 73%;
+  top: 0;
+  left: 0vw;
+}
+.bk11 h3{
+  display: block;
+  position: absolute;
+  font-family: 'time', serif;
+  text-transform: uppercase;
+  top: 19.5vw;
+  font-size: 1vw;
+  left: 0vw;
+  text-decoration: none;
+  text-align: center;
+  color: #050a30;
+}
+.bk11:hover{
   transform: scale(1.01);
   cursor: pointer;
 }
@@ -1554,7 +1594,7 @@ background-size: cover;
   footer{
     width: 106vw;
     height: 100vw;
-    margin-top: 1100vw;
+    margin-top: 1260vw;
   }
   footer img{
     justify-content: center;
@@ -2069,13 +2109,14 @@ background-size: cover;
     text-align: center;
     background: white;
   }
+  
   .bk10{
     display: block;
     position: absolute;
     width: 70vw;
     height: 80vw;
-    margin-left: -63vw;
-    top: 998vw;
+    margin-left: -2vw;
+    top: 810vw;
     border-radius: 4vw;
   }
   .bk10 img{
@@ -2088,10 +2129,36 @@ background-size: cover;
     margin-top: 44.4vw;
     font-size: 5vw;
     left: 0vw;
-    width: 70vw;
+    width: 72vw;
     height: 14vw;
     padding-top: 5vw;
     text-align: center;
     background: white;
   }
+  .bk11{
+    display: block;
+    position: absolute;
+    width: 70vw;
+    height: 80vw;
+    margin-left: -23vw;
+    top: 900vw;
+    border-radius: 4vw;
+  }
+  .bk11 img{
+    width: 70vw;
+    height: 67vw;
+    left: 0vw;
+    align-self: center;
+  }
+  .bk11 h3{
+    margin-top: 41vw;
+    font-size: 5vw;
+    left: 0vw;
+    width: 72vw;
+    height: 14vw;
+    padding-top: 5vw;
+    text-align: center;
+    background: white;
+  }
+  
 }

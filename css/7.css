@@ -489,7 +489,7 @@ margin-left: 64vw;
 font-family: 'time';
 font-weight: bold;
 font-size: 1vw;
-width: 11vw;
+width: 13vw;
 border-radius: 1.2vw;
 background: white;
 border: 1px solid black;
@@ -512,7 +512,7 @@ background: #03061f;
 display: block;
 position: absolute;
 margin-top: 41.7vw;
-margin-left: 65vw;
+margin-left: 60vw;
 font-family: 'time';
 font-size: 1.4vw;
 width: 9vw;
@@ -527,7 +527,7 @@ display: inline-block;
 position: absolute;
 font-family: 'time';
 margin-top: 44.3vw;
-margin-left: 58vw;
+margin-left: 54vw;
 }
 .ingredients p{
 width: 24vw;
@@ -549,7 +549,7 @@ background: #03061f;
 display: block;
 position: absolute;
 margin-top: 41.7vw;
-margin-left: 29vw;
+margin-left: 25vw;
 font-family: 'time';
 font-size: 1.4vw;
 width: 9vw;
@@ -564,7 +564,7 @@ display: inline-block;
 position: absolute;
 font-family: 'time';
 margin-top: 44vw;
-margin-left: 22vw;
+margin-left: 15vw;
 }
 .instructions p{
 display: block;

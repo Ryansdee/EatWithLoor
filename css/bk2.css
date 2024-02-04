@@ -629,9 +629,10 @@ width: 25vw;
 .nutrition p{
   display: block;
   position: absolute;
-  width: 40vw;
+  width: 43vw;
   margin-top: 65vw;
-  font-size: 0.73vw;
+  margin-left: -5vw;
+  font-size: 1vw;
   font-family: 'time';
 }
 .nutrition h6{

@@ -565,6 +565,7 @@
   font-family: 'time';
   margin-top: 44vw;
   margin-left: 18vw;
+    width: 30vw;
   }
   .instructions p{
   display: block;
@@ -582,7 +583,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 65vw;
+  margin-top: 70vw;
   margin-left: 20vw;
   width: 65vw;
   height: 0.01vw;
@@ -591,7 +592,7 @@
   #nutrition{
   display: inline-block;
   position: absolute;
-  margin-top: 73.5vw;
+  margin-top: 78.5vw;
   margin-left: 45.6vw;
   font-family: 'time';
   font-size: 1.4vw;
@@ -616,7 +617,7 @@
   display: inline-block;
   position: absolute;
   font-family: 'time';
-  margin-top: 15vw;
+  margin-top: 19vw;
   margin-left: 29vw;
   font-size: 1vw;
   }

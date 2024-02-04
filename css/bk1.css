@@ -624,7 +624,8 @@ display: block;
 position: absolute;
 width: 40vw;
 margin-top: 65vw;
-font-size: 0.73vw;
+margin-left: -5vw;
+font-size: 1vw;
 font-family: 'time';
 }
 .nutrition h6{

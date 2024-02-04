@@ -512,7 +512,7 @@
   display: block;
   position: absolute;
   margin-top: 41.7vw;
-  margin-left: 65vw;
+  margin-left: 60vw;
   font-family: 'time';
   font-size: 1.4vw;
   width: 9vw;
@@ -527,7 +527,7 @@
   position: absolute;
   font-family: 'time';
   margin-top: 44.3vw;
-  margin-left: 58vw;
+  margin-left: 54vw;
   }
   .ingredients p{
   width: 24vw;
@@ -549,7 +549,7 @@
   display: block;
   position: absolute;
   margin-top: 41.7vw;
-  margin-left: 29vw;
+  margin-left: 25vw;
   font-family: 'time';
   font-size: 1.4vw;
   width: 9vw;
@@ -564,7 +564,7 @@
   position: absolute;
   font-family: 'time';
   margin-top: 44vw;
-  margin-left: 22vw;
+  margin-left: 17vw;
   }
   .instructions p{
   display: block;
@@ -582,7 +582,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 60vw;
+  margin-top: 53vw;
   margin-left: 20vw;
   width: 65vw;
   height: 0.01vw;
@@ -591,7 +591,7 @@
   #nutrition{
   display: inline-block;
   position: absolute;
-  margin-top: 68.5vw;
+  margin-top: 61.5vw;
   margin-left: 44vw;
   font-family: 'time';
   font-size: 1.4vw;
@@ -616,7 +616,7 @@
   display: inline-block;
   position: absolute;
   font-family: 'time';
-  margin-top: 8vw;
+  margin-top: 1vw;
   margin-left: 25vw;
   font-size: 1vw;
   }
@@ -642,7 +642,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 70.3vw;
+  margin-top: 63.3vw;
   margin-left: 20vw;
   width: 65vw;
   height: 0.01vw;
@@ -651,7 +651,7 @@
   #allike{
   display: inline-block;
   position: absolute;
-  margin-top: -40vw;
+  margin-top: -47vw;
   margin-left: 42.5vw;
   font-family: 'time';
   font-size: 1.4vw;
@@ -670,7 +670,7 @@
   position: absolute;
   font-family: 'time';
   text-align: center;
-  margin-top: -100vw;
+  margin-top: -107vw;
   margin-left: 33vw;
   font-weight: bold;
   }

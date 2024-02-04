@@ -640,6 +640,7 @@ position: absolute;
 font-size: 1vw;
 top: 2vw;
 left: 70vw;
+cursor: pointer;
 }
 .contact{
 font-family: 'ewl', sans-serif;
@@ -649,6 +650,7 @@ position: absolute;
 font-size: 1vw;
 top: 3.5vw;
 left: 70vw;
+cursor: pointer;
 }
 .copyright{
 font-family: 'ewl', sans-serif;

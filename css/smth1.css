@@ -394,6 +394,7 @@
     top: 2vw;
     left: 70vw;
     font-weight: normal;
+    cursor: pointer;
   }
   .contact{
     font-family: 'ewl', sans-serif;
@@ -404,6 +405,7 @@
     top: 3.5vw;
     left: 70vw;
     font-weight: normal;
+    cursor: pointer;
   }
   .copyright{
     font-family: 'ewl', sans-serif;
@@ -1019,7 +1021,8 @@
   position: absolute;
   width: 42vw;
   margin-top: 61.5vw;
-  margin-left: -15vw;
+  margin-left: -19vw;
+  font-size: 1vw;
   font-family: 'time';
   }
   .nutrition h6{
