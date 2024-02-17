@@ -82,6 +82,9 @@ html{
   gap: 1rem;
   z-index: 10;
 }
+.nav .oatmeals{
+  width: 30dvw;
+}
 .nav > .nav-list > li {
   text-decoration: none;
   list-style-type: none;
@@ -879,7 +882,17 @@ cursor: pointer;
   color: #050a30;
   font-size: 1.3vw;
 }
-.links{
+.recipees a{
+  text-decoration: none;
+  font-family: 'butler', serif;
+  text-align: center;
+  font-size: 1.3dvw;
+  padding: 2dvw;
+}
+.recipees a:hover{
+  text-decoration: underline;
+}
+.linkss{
   width: 100vw;
   height: 10vw;
   display: inline-block;
@@ -1232,6 +1245,7 @@ footer{
 .Tiktok img{
   width: 12vw;
 }
+
   .page{
     width: 105vw;
     height: 1200vw;
@@ -1342,7 +1356,7 @@ footer{
   .insta img{
     width: 12vw;
     display: block;
-    margin-top: -3vw;
+    margin-top: -2.5vw;
     margin-left: 13vw;
   }
   .nav > .Tiktok{
@@ -1408,7 +1422,8 @@ footer{
   }
   .nav-list .oatmeals{
     display: block;
-    margin-top: 6vw;
+    margin-top: 7vw;
+    margin-left: 29dvw;
   }
   .nav-list .pancakes{
     display: block;
@@ -1443,7 +1458,7 @@ footer{
     margin-top: 1.4vw;
     margin-left: 16vw;
   }
-  .links{
+  .linkss{
     display: none;
   }
   .home{
